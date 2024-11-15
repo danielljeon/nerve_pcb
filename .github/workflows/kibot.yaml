@@ -1,0 +1,119 @@
+################################################################################
+# kibot.yaml
+#
+# KiBot custom preflight checks and output release files workflow.
+#
+# Built for KiBot running KiCad 8.
+################################################################################
+
+name: KiBot Release
+
+on:
+  push:
+    paths:
+      - "*.kicad_sch"
+      - "*.kicad_pcb"
+      - "*.kibot.yaml"
+      - ".github/workflows/kibot.yaml"
+    branches:
+      - main
+  pull_request:
+    paths:
+      - "*.kicad_sch"
+      - "*.kicad_pcb"
+      - "*.kibot.yaml"
+      - ".github/workflows/kibot.yaml"
+    branches:
+      - main
+
+jobs:
+  kibot_erc:
+    name: KiBot ERC
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Cache 3D models data
+        id: models-cache
+        uses: set-soft/cache@main
+        with:
+          path: ~/cache_3d
+          key: cache_3d
+
+      - name: Run ERC
+        uses: INTI-CMNB/KiBot@v2_k8
+        with:
+          config: config.kibot.yaml  # Required - kibot config file.
+          # schema: kicad_project_name.kicad_sch  # Optional - schematic file.
+          # board: kicad_project_name.kicad_pcb  # Optional - PCB design file.
+          dir: Generated
+          cache3D: YES
+          skip: drc
+          targets: __NONE__
+
+      - name: Retrieve results
+        uses: actions/upload-artifact@v4
+        with:
+          name: erc_outputs
+          path: Generated
+
+  kibot_drc:
+    name: KiBot DRC
+
+    runs-on: ubuntu-latest
+
+    # needs: kibot_erc
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Run DRC
+        uses: INTI-CMNB/KiBot@v2_k8
+        with:
+          config: config.kibot.yaml  # Required - kibot config file.
+          # schema: kicad_project_name.kicad_sch  # Optional - schematic file.
+          # board: kicad_project_name.kicad_pcb  # Optional - PCB design file.
+          dir: Generated
+          cache3D: YES
+          skip: erc
+          targets: __NONE__
+
+      - name: Retrieve results
+        uses: actions/upload-artifact@v4
+        with:
+          name: drc_outputs
+          path: Generated
+
+  kibot_var_default:
+    name: KiBot default variant
+
+    runs-on: ubuntu-latest
+
+    # needs: [ kibot_erc, kibot_drc ]
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - uses: INTI-CMNB/KiBot@v2_k8
+        with:
+          config: config.kibot.yaml  # Required - kibot config file.
+          # schema: kicad_project_name.kicad_sch  # Optional - schematic file.
+          # board: kicad_project_name.kicad_pcb  # Optional - PCB design file.
+          dir: default
+          cache3D: YES
+          variant: default
+          skip: erc,drc
+
+      - name: Upload result artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: default_variant
+          path: default
