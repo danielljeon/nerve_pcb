@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "adafruit")(type "KiCad")(uri "${KIPRJMOD}/component_library/adafruit.kicad_sym")(options "")(descr ""))
+  (lib (name "stm32f4")(type "KiCad")(uri "${KIPRJMOD}/component_library/stm32f4.kicad_sym")(options "")(descr ""))
+  (lib (name "tag_connect")(type "KiCad")(uri "${KIPRJMOD}/component_library/tag_connect.kicad_sym")(options "")(descr ""))
+  (lib (name "digi_xbee")(type "KiCad")(uri "${KIPRJMOD}/component_library/digi_xbee.kicad_sym")(options "")(descr ""))
+  (lib (name "ublox")(type "KiCad")(uri "${KIPRJMOD}/component_library/ublox.kicad_sym")(options "")(descr ""))
+  (lib (name "common")(type "KiCad")(uri "${KIPRJMOD}/component_library/common.kicad_sym")(options "")(descr ""))
+  (lib (name "bosch")(type "KiCad")(uri "${KIPRJMOD}/component_library/bosch.kicad_sym")(options "")(descr ""))
+  (lib (name "ceva")(type "KiCad")(uri "${KIPRJMOD}/component_library/ceva.kicad_sym")(options "")(descr ""))
+  (lib (name "nxp")(type "KiCad")(uri "${KIPRJMOD}/component_library/nxp.kicad_sym")(options "")(descr ""))
+)
