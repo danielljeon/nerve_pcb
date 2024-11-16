@@ -388,6 +388,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "digi_xbee:xbee_pro_900hp"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1644,6 +1746,207 @@
 		(uuid "e9e3e2a4-29fc-4f15-9e21-ad0c1ee790da")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 240.03 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "072e1fae-d141-44e1-8d51-59c9d86ef672")
+		(property "Reference" "#PWR090"
+			(at 240.03 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55719036-6bdf-4cec-b028-7964f434947c")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 278.13 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11934101-ebde-411d-a715-1c45a9ee861e")
+		(property "Reference" "H12"
+			(at 280.67 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 280.67 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 278.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 278.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd960bd9-8a1a-411d-a446-03727bebded5")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57bf9226-94fa-4127-aa71-e30dd0c3fa9a")
+		(property "Reference" "#PWR093"
+			(at 278.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7ba4b9c-5625-45a4-a88f-a64b6ee6b726")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 127 33.02 0)
 		(unit 1)
@@ -1652,7 +1955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a2fafbc-6fa2-4081-bfe8-ff504748c496")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR087"
 			(at 127 36.83 0)
 			(effects
 				(font
@@ -1702,7 +2005,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
-					(reference "#PWR083")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -1778,6 +2081,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 240.03 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "789107d3-b275-4097-a8f6-0d554ff7e3a8")
+		(property "Reference" "H9"
+			(at 242.57 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 242.57 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 240.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 240.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a9a5161-df96-46c9-afcb-381e7794a34b")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 30.48 0)
 		(unit 1)
@@ -1787,7 +2157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fb5c8d1-2e47-4d8a-aa53-9c5939f5a1fb")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR086"
 			(at 78.74 36.83 0)
 			(effects
 				(font
@@ -1838,7 +2208,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
-					(reference "#PWR082")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -1854,7 +2224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83734eb2-9e99-4c90-b857-ca28671e2472")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR088"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -1905,7 +2275,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
-					(reference "#PWR084")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -1921,7 +2291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8de50acf-d606-4ed0-a15b-a9e4f46aa011")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR089"
 			(at 59.69 88.9 0)
 			(effects
 				(font
@@ -1972,7 +2342,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
-					(reference "#PWR085")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -2231,7 +2601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7c75020-e160-4537-ae87-0ad89d82c505")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR085"
 			(at 78.74 21.59 0)
 			(effects
 				(font
@@ -2281,7 +2651,275 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
-					(reference "#PWR081")
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c629ba8a-f055-4e46-a974-975f19f98468")
+		(property "Reference" "#PWR091"
+			(at 252.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55d99b30-207a-4ad6-89ed-154069ddae70")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea4c93bf-8710-4a8b-afaf-500a29a87f3b")
+		(property "Reference" "#PWR092"
+			(at 265.43 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a435cbb2-256a-41b6-b510-bd92ef43c8bd")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 252.73 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea51070f-7fc5-4f19-856c-1c21ee2b22fa")
+		(property "Reference" "H10"
+			(at 255.27 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 255.27 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 252.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 252.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "375f44ff-e165-44e0-a61b-3f184dc87a9f")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 265.43 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ead647e4-8619-4bb3-9b6e-ca2c32371fdb")
+		(property "Reference" "H11"
+			(at 267.97 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 267.97 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 265.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 265.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ec2058e-6331-4b57-b986-3f69c69a33fa")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/c74e3869-b9cc-416c-ac24-f158c9a16ca3"
+					(reference "H11")
 					(unit 1)
 				)
 			)
