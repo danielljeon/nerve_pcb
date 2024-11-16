@@ -9499,6 +9499,25 @@
 		)
 		(uuid ec452506-90b7-47ca-8942-05b2c0cb08a7)
 	)
+	(text_box "PCBWay 4-Layer Stackup:\n  - Thickness: 1.6MM \n  - Finished Outer Copper: 1OZ \n  - Inner Copper: 1OZ \n  - Inner layer Residual copper ratio: 70% "
+		(exclude_from_sim no)
+		(at 240.03 166.37 0)
+		(size 44.45 11.43)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "02007420-fa53-47ad-b644-fa6e23482d75")
+	)
 	(text "Add-on board\ninterlock on pins:\n8, 9"
 		(exclude_from_sim no)
 		(at 175.26 141.986 0)
