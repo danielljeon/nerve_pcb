@@ -1027,6 +1027,187 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -5729,6 +5910,12 @@
 		(uuid "55df3672-ff58-44bb-9de4-6a3963619ab0")
 	)
 	(junction
+		(at 276.86 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56c93faa-e430-44b7-b89f-9a1018c8ebfa")
+	)
+	(junction
 		(at 228.6 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5781,12 +5968,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8669027c-3182-4783-8420-728c483ccff0")
-	)
-	(junction
-		(at 266.7 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cf1efd2-b7b2-408b-8ded-7ec5bc00d92b")
 	)
 	(junction
 		(at 31.75 83.82)
@@ -6484,6 +6665,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 82.55) (xy 276.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c894f2f-fa28-4ead-bf76-73b75a2edb53")
+	)
+	(wire
+		(pts
 			(xy 38.1 66.04) (xy 38.1 76.2)
 		)
 		(stroke
@@ -6591,16 +6782,6 @@
 			(type default)
 		)
 		(uuid "367d38ad-a549-4ddf-9fe9-f6e3877fb006")
-	)
-	(wire
-		(pts
-			(xy 278.13 95.25) (xy 279.4 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3685f61c-4033-4a9c-94e1-2296ab7fdec2")
 	)
 	(wire
 		(pts
@@ -7254,16 +7435,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 74.93) (xy 266.7 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e96e47f-7638-4da0-bc11-b81d0a3a39da")
-	)
-	(wire
-		(pts
 			(xy 76.2 44.45) (xy 76.2 72.39)
 		)
 		(stroke
@@ -7311,6 +7482,16 @@
 			(type default)
 		)
 		(uuid "71113b7c-19fe-4d53-8583-22f785e0afd0")
+	)
+	(wire
+		(pts
+			(xy 275.59 87.63) (xy 276.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72600813-2872-48fd-af91-453399f3cb45")
 	)
 	(wire
 		(pts
@@ -7451,6 +7632,16 @@
 			(type default)
 		)
 		(uuid "7b24f175-ca94-438e-9e74-949edd393726")
+	)
+	(wire
+		(pts
+			(xy 276.86 87.63) (xy 276.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb701d2-29c2-426e-8ed9-ea8f426a63f4")
 	)
 	(wire
 		(pts
@@ -7744,7 +7935,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 83.82) (xy 266.7 82.55)
+			(xy 266.7 72.39) (xy 266.7 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8001,6 +8192,16 @@
 			(type default)
 		)
 		(uuid "a9d567ce-da51-497f-86b5-ad3f29034059")
+	)
+	(wire
+		(pts
+			(xy 276.86 97.79) (xy 276.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0c3fef-6f0c-49a8-b685-67311a651a71")
 	)
 	(wire
 		(pts
@@ -8284,16 +8485,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 95.25) (xy 266.7 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c79bc8cc-e496-4372-8522-56e72c9586c1")
-	)
-	(wire
-		(pts
 			(xy 96.52 81.28) (xy 97.79 81.28)
 		)
 		(stroke
@@ -8401,26 +8592,6 @@
 			(type default)
 		)
 		(uuid "cd5c7973-169c-469d-952f-bab1b034ddab")
-	)
-	(wire
-		(pts
-			(xy 269.24 83.82) (xy 266.7 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd8dee7f-b2b3-41ad-827c-f83e8b4c21d9")
-	)
-	(wire
-		(pts
-			(xy 279.4 95.25) (xy 279.4 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cddcc4f2-2089-4648-a724-de661b6a1ce1")
 	)
 	(wire
 		(pts
@@ -8544,7 +8715,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 95.25) (xy 266.7 95.25)
+			(xy 267.97 82.55) (xy 266.7 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8771,6 +8942,16 @@
 			(type default)
 		)
 		(uuid "ea1ccb30-7d55-4da1-8cc9-165d25c01d36")
+	)
+	(wire
+		(pts
+			(xy 275.59 82.55) (xy 276.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9ee7bd-22f4-4953-a05a-81e89290ba5a")
 	)
 	(wire
 		(pts
@@ -9145,7 +9326,7 @@
 	)
 	(text "Manual card \ndetect jumper."
 		(exclude_from_sim no)
-		(at 264.414 98.552 0)
+		(at 269.24 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9293,18 +9474,6 @@
 			(justify left)
 		)
 		(uuid "00d88116-a347-445f-be51-c764463d0a12")
-	)
-	(hierarchical_label "SDIO_DET"
-		(shape input)
-		(at 269.24 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01905be7-4078-439d-9cfd-8f948eb29a51")
 	)
 	(hierarchical_label "USART1_CTS"
 		(shape input)
@@ -9823,6 +9992,18 @@
 			(justify right)
 		)
 		(uuid "75d3f3b8-9ccc-4966-a907-25e3d1608b59")
+	)
+	(hierarchical_label "SDIO_DET"
+		(shape input)
+		(at 275.59 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "763eb17c-ff22-4c78-b1ee-d3f20e664d1e")
 	)
 	(hierarchical_label "USART2_TX"
 		(shape input)
@@ -10567,7 +10748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 277.8252 35.56 0)
 			(effects
 				(font
@@ -10786,7 +10967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 252.4252 35.56 0)
 			(effects
 				(font
@@ -11112,7 +11293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2284c699-8bac-4c3e-97b5-6a0dea47c1a8")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR039"
 			(at 265.43 168.91 0)
 			(effects
 				(font
@@ -11163,7 +11344,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR041")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11511,7 +11692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37033937-9cd9-419f-aadf-422ed477a889")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 203.2 154.94 0)
 			(effects
 				(font
@@ -11562,7 +11743,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11769,7 +11950,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 266.7 73.66 0)
+		(at 266.7 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11777,7 +11958,7 @@
 		(dnp no)
 		(uuid "3c9b2f8c-c3f6-4fb2-93d5-a08315e3bef8")
 		(property "Reference" "#PWR020"
-			(at 266.7 77.47 0)
+			(at 266.7 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11786,7 +11967,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 266.7 69.85 0)
+			(at 266.7 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11794,7 +11975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 73.66 0)
+			(at 266.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11803,7 +11984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 73.66 0)
+			(at 266.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11812,7 +11993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 266.7 73.66 0)
+			(at 266.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11842,7 +12023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e4d5665-1a44-404c-8ad6-84c1ac8237b7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 254 154.94 0)
 			(effects
 				(font
@@ -11893,7 +12074,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12257,7 +12438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a9bdb32-56da-4e4f-a4bb-9df8bd5b6275")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 77.47 184.1499 0)
 			(effects
 				(font
@@ -12314,7 +12495,7 @@
 		(instances
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -12534,7 +12715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e291e63-de0d-4921-ac86-c37219eb5206")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 252.73 168.91 0)
 			(effects
 				(font
@@ -12585,7 +12766,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12802,7 +12983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ba76ab6-80ee-4e6f-9346-02935802ab07")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR040"
 			(at 278.13 168.91 0)
 			(effects
 				(font
@@ -12853,7 +13034,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR042")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13472,77 +13653,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 266.7 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8150894d-d57e-41ff-a063-edc11ad9a281")
-		(property "Reference" "R9"
-			(at 268.732 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 268.732 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 264.922 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 266.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "edb404b0-f5b1-432d-b0d6-8941b1e25a29")
-		)
-		(pin "1"
-			(uuid "e69a9f6e-0b84-4915-810a-855ad5394bc9")
-		)
-		(instances
-			(project "nerve_ada_board"
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 279.4 96.52 0)
+		(at 276.86 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13551,7 +13663,7 @@
 		(fields_autoplaced yes)
 		(uuid "828ac921-1bd6-4012-899c-5a00b6a46905")
 		(property "Reference" "#PWR025"
-			(at 279.4 102.87 0)
+			(at 276.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13560,7 +13672,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 279.4 101.6 0)
+			(at 276.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13569,7 +13681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 96.52 0)
+			(at 276.86 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13578,7 +13690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 96.52 0)
+			(at 276.86 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13587,7 +13699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 279.4 96.52 0)
+			(at 276.86 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13889,7 +14001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bd8fff1-8133-449f-b3c7-70af357f9f00")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 59.69 161.29 0)
 			(effects
 				(font
@@ -13940,7 +14052,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -14133,7 +14245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9070a94a-c639-4012-bd84-57ad0576a029")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 240.03 168.91 0)
 			(effects
 				(font
@@ -14184,7 +14296,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14264,7 +14376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "955a8c41-a04f-4ade-bfa8-298d31c7444a")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 45.974 144.78 0)
 			(effects
 				(font
@@ -14318,7 +14430,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14333,7 +14445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "970a3fad-114d-4b0b-9326-db6961f6ebe2")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 25.4 78.994 90)
 			(effects
 				(font
@@ -14385,7 +14497,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -14401,7 +14513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e058d03-2c83-4e14-9385-0290464296cb")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 40.386 183.896 0)
 			(effects
 				(font
@@ -14461,7 +14573,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14794,7 +14906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaf18b16-a68c-4803-b52c-f5cf8576c305")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 38.1 168.91 0)
 			(effects
 				(font
@@ -14845,7 +14957,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15583,7 +15695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 51.7652 67.31 0)
 			(effects
 				(font
@@ -15834,7 +15946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1da983b-eb3e-47ac-963f-25865c5b4da5")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -15885,7 +15997,7 @@
 		(instances
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -16018,118 +16130,6 @@
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "common:harwin_2p_2-54_jumper_open")
-		(at 273.05 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbc6ea27-3560-4606-a557-ea9b6d0596d5")
-		(property "Reference" "J5"
-			(at 273.05 91.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 273.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "common:harwin_2p_2-54_jumper_open"
-			(at 276.86 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-999.pdf"
-			(at 308.61 102.743 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
-			(at 308.61 102.743 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Harwin"
-			(at 308.61 93.853 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "M20-9990246"
-			(at 308.61 93.853 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 308.61 93.853 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "952-2262-ND"
-			(at 308.61 102.743 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9990246/3728226"
-			(at 308.61 102.743 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9383af9e-1718-4d80-b962-79fd51c2c1d1")
-		)
-		(pin "1"
-			(uuid "d30f1a7f-433d-4bc0-9816-adc3a912f1c1")
-		)
-		(instances
-			(project "nerve_ada_board"
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -16602,7 +16602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e510ca04-b2ac-4c14-9ceb-705dd071200a")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 106.68 185.42 0)
 			(effects
 				(font
@@ -16656,7 +16656,75 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J8")
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 271.78 82.55 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e54dcbff-afaf-4cde-ba93-899395ed856d")
+		(property "Reference" "JP1"
+			(at 271.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Open"
+			(at 271.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 271.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 271.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "deac3e1b-95bb-4fde-8e03-46d7e5771d42")
+		)
+		(pin "2"
+			(uuid "0ee47eed-9cf2-40da-a189-6be986417867")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -16923,6 +16991,76 @@
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 276.86 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecc710a4-a905-4238-8777-642974be360b")
+		(property "Reference" "R10"
+			(at 274.828 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 274.828 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 278.638 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 276.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "863f7182-49dc-4e6d-be66-ba8e9a0f2495")
+		)
+		(pin "1"
+			(uuid "581f9b23-ff7c-4ea2-8072-f408e9e275ca")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -17390,7 +17528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa56c14a-694f-4193-8ba7-7ab1868e9752")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 29.972 144.78 0)
 			(effects
 				(font
@@ -17444,7 +17582,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
