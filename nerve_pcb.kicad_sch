@@ -16370,7 +16370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical_SMD"
 			(at 195.58 129.54 0)
 			(effects
 				(font
@@ -16547,7 +16547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical_SMD"
 			(at 246.38 139.7 0)
 			(effects
 				(font
