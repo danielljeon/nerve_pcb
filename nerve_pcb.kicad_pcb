@@ -20274,7 +20274,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "F.Cu")
+		(layer "Cmts.User")
 		(uuid "20eb85f0-da7e-45e8-a01b-c9c5f590b8a9")
 		(pts
 			(xy 168.5 79.5) (xy 128.5 79.5)
@@ -20282,7 +20282,7 @@
 		(height 4.499999)
 		(gr_text "40.0000 mm"
 			(at 148.5 73.200001 0)
-			(layer "F.Cu")
+			(layer "Cmts.User")
 			(uuid "20eb85f0-da7e-45e8-a01b-c9c5f590b8a9")
 			(effects
 				(font
@@ -20307,7 +20307,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "F.Cu")
+		(layer "Cmts.User")
 		(uuid "60df5fbb-67ea-48dc-8425-6ea4f43ff730")
 		(pts
 			(xy 173.5 83.5) (xy 123.5 83.5)
@@ -20315,7 +20315,7 @@
 		(height 13.499999)
 		(gr_text "50.0000 mm"
 			(at 148.5 68.200001 0)
-			(layer "F.Cu")
+			(layer "Cmts.User")
 			(uuid "60df5fbb-67ea-48dc-8425-6ea4f43ff730")
 			(effects
 				(font
@@ -20340,7 +20340,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "F.Cu")
+		(layer "Cmts.User")
 		(uuid "c0a0b424-a575-467b-a20f-bb8f764d4f65")
 		(pts
 			(xy 123 85) (xy 123 125)
@@ -20348,7 +20348,7 @@
 		(height 2.999999)
 		(gr_text "40.0000 mm"
 			(at 118.200001 105 90)
-			(layer "F.Cu")
+			(layer "Cmts.User")
 			(uuid "c0a0b424-a575-467b-a20f-bb8f764d4f65")
 			(effects
 				(font
@@ -20373,7 +20373,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "F.Cu")
+		(layer "Cmts.User")
 		(uuid "e5b301ed-8b19-47d0-8741-02ca3cc5d12a")
 		(pts
 			(xy 127 130) (xy 127 80)
@@ -20381,7 +20381,7 @@
 		(height -12)
 		(gr_text "50.0000 mm"
 			(at 113.2 105 90)
-			(layer "F.Cu")
+			(layer "Cmts.User")
 			(uuid "e5b301ed-8b19-47d0-8741-02ca3cc5d12a")
 			(effects
 				(font
