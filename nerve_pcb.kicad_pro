@@ -688,14 +688,6 @@
     [
       "4fcd2c12-d66e-4aef-b6ae-64082d99e104",
       "nerve_pcb_can"
-    ],
-    [
-      "5e5db2cb-8fc9-48f2-985b-a0cd6e1a3554",
-      "addon_gps_pcb"
-    ],
-    [
-      "c74e3869-b9cc-416c-ac24-f158c9a16ca3",
-      "addon_radio_pcb"
     ]
   ],
   "text_variables": {}

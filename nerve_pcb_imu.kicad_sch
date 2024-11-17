@@ -2184,7 +2184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2440d7bb-6f08-400b-ba81-138d48129e68")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR068"
 			(at 153.67 140.97 0)
 			(effects
 				(font
@@ -2235,7 +2235,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/1178a2c5-f6af-4893-bc81-c8b9cb81f032"
-					(reference "#PWR069")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2320,7 +2320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b0ea129-71c4-4e40-a8d8-f3e0b8f4d182")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR065"
 			(at 124.46 125.73 0)
 			(effects
 				(font
@@ -2371,7 +2371,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/1178a2c5-f6af-4893-bc81-c8b9cb81f032"
-					(reference "#PWR066")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -2499,7 +2499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42439da9-f233-4115-8087-53aca96366a7")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR064"
 			(at 95.25 119.38 0)
 			(effects
 				(font
@@ -2550,7 +2550,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/1178a2c5-f6af-4893-bc81-c8b9cb81f032"
-					(reference "#PWR065")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3170,7 +3170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f70dc4f-0190-4e7d-8a85-3ce51c9fb3fb")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR067"
 			(at 160.02 133.35 0)
 			(effects
 				(font
@@ -3221,7 +3221,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/1178a2c5-f6af-4893-bc81-c8b9cb81f032"
-					(reference "#PWR068")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -3369,7 +3369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1d198a0-4e5d-414b-8095-a1d3e1645c56")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR066"
 			(at 203.2 132.08 0)
 			(effects
 				(font
@@ -3420,7 +3420,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/1178a2c5-f6af-4893-bc81-c8b9cb81f032"
-					(reference "#PWR067")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3643,7 +3643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb800445-d6a7-45f5-bdce-c509ff554977")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR063"
 			(at 181.61 107.95 0)
 			(effects
 				(font
@@ -3694,7 +3694,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/1178a2c5-f6af-4893-bc81-c8b9cb81f032"
-					(reference "#PWR064")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
