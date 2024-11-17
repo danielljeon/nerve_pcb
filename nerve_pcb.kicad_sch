@@ -6418,6 +6418,12 @@
 		(uuid "92b47211-f553-4c74-95f9-bd6cb861cdea")
 	)
 	(junction
+		(at 168.91 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94854112-a28b-4d89-b6b2-278a34c770ab")
+	)
+	(junction
 		(at 93.98 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7318,6 +7324,16 @@
 			(type default)
 		)
 		(uuid "44686b0c-f81f-4ffe-bd7d-a7b430dba98c")
+	)
+	(wire
+		(pts
+			(xy 167.64 137.16) (xy 168.91 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d48ae0-0f37-44aa-afc5-6d795ed93eeb")
 	)
 	(wire
 		(pts
@@ -11462,6 +11478,72 @@
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 167.64 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2890eb7e-6966-4740-ae11-a7269a487650")
+		(property "Reference" "#FLG04"
+			(at 165.735 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 163.576 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17169459-af88-4e6f-9055-19d9db18884c")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
