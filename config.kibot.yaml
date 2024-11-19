@@ -191,7 +191,7 @@ outputs:
       title: "+ (%V variant)"  # Append the variant to the title.
       scaling: 1.0
       pages:
-        - layers: [ User.Drawing, User.Comments ]
+        - layers: [ User.Drawings, User.Comments ]
           sheet: "User drawings and comments"
         - layers: [ F.Paste, F.Fab ]
           sheet: "Fabrication top layers"
