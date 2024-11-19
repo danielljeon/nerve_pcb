@@ -20298,9 +20298,9 @@
 			)
 		)
 	)
-	(gr_text_box "PCBWay 6-Layer Stackup (Detailed):\n\nLayer 1 (Top Layer): Copper\n  - 0.035 mm (1 oz)\n\nDielectric 1: Prepreg (2116 RC58)\n  - 0.1195 mm\n\nLayer 2 (Inner Layer 1): Copper\n  - 0.035 mm (1 oz)\n\nDielectric 2: Core (FR4)\n  - 0.43 mm\n\nLayer 3 (Inner Layer 2): Copper\n  - 0.035 mm (1 oz)\n\nDielectric 3: Prepreg (7628 RC46)\n  - 0.175 mm\n\nLayer 4 (Inner Layer 3): Copper\n  - 0.035 mm (1 oz)\n\nDielectric 4: Core (FR4)\n  - 0.43 mm\n\nLayer 5 (Inner Layer 4): Copper\n  - 0.035 mm (1 oz)\n\nDielectric 5: Prepreg (2116 RC58)\n  - 0.1195 mm\n\nLayer 6 (Bottom Layer): Copper\n  - 0.035 mm (1 oz)\n\nOverall Thickness: 1.6 mm"
+	(gr_text_box "PCBWay 6-Layer Stackup (Detailed):\n\nLayer 1 (Top Layer): Copper\n  - Thickness: 0.0175 mm (0.5 oz)\n\nDielectric 1: Prepreg (2116 RC58)\n  - Thickness: 0.1195 mm\n  - Dielectric Constant: 4.45\n  - Loss Tangent: 0.02\n\nLayer 2 (Inner Layer 1): Copper\n  - Thickness: 0.035 mm (1 oz)\n\nDielectric 2: Core (FR4)\n  - Thickness: 0.43 mm\n  - Dielectric Constant: 4.6\n  - Loss Tangent: 0.02\n\nLayer 3 (Inner Layer 2): Copper\n  - Thickness: 0.035 mm (1 oz)\n\nDielectric 3: Prepreg (7628 RC46)\n  - Thickness: 0.175 mm\n  - Dielectric Constant: 4.74\n  - Loss Tangent: 0.02\n\nLayer 4 (Inner Layer 3): Copper\n  - Thickness: 0.035 mm (1 oz)\n\nDielectric 4: Core (FR4)\n  - Thickness: 0.43 mm\n  - Dielectric Constant: 4.6\n  - Loss Tangent: 0.02\n\nLayer 5 (Inner Layer 4): Copper\n  - Thickness: 0.035 mm (1 oz)\n\nDielectric 5: Prepreg (2116 RC58)\n  - Thickness: 0.1195 mm\n  - Dielectric Constant: 4.45\n  - Loss Tangent: 0.02\n\nLayer 6 (Bottom Layer): Copper\n  - Thickness: 0.0175 mm (0.5 oz)\n\nOverall Thickness: 1.6 mm"
 		(start 235 13)
-		(end 284.25 102)
+		(end 284.25 126)
 		(layer "Cmts.User")
 		(uuid "0bd60e8d-8efb-4978-a3d0-1321a9343e9c")
 		(effects
@@ -20337,8 +20337,8 @@
 		)
 	)
 	(gr_text_box "50R Surface Microstrip Impedance Control:\n  - Trace width: 0.21 mm\n  - Calculated (Z_{0}): 50.2R"
-		(start 219.875 118)
-		(end 284.125 127)
+		(start 111.75 150)
+		(end 176 159)
 		(layer "Cmts.User")
 		(uuid "bc4b3ada-98bc-49ea-840e-aa9eb3a6dd95")
 		(effects
@@ -20356,8 +20356,8 @@
 		)
 	)
 	(gr_text_box "120R Surface Differential Pair Impedance Control:\n  - Trace width: 0.18 mm\n  - Gap: 0.5 mm\n  - Via gap: 0.5 mm\n  - Calculated: 119.8R\n  - Calculated (Z_{0}): 59.9R\n  - Calculated (Z_{diff}): 119.8R"
-		(start 219.875 146)
-		(end 284.125 165)
+		(start 111.75 178)
+		(end 176 197)
 		(layer "Cmts.User")
 		(uuid "d31f8a76-e6d1-4f0d-8620-a4695b953cdc")
 		(effects
@@ -20375,8 +20375,8 @@
 		)
 	)
 	(gr_text_box "100R Surface Differential Pair Impedance Control:\n  - Trace width: 0.22 mm\n  - Gap: 0.2 mm\n  - Via gap: 0.5 mm\n  - Calculated (Z_{0}): 50.1R\n  - Calculated (Z_{diff}): 100.2R"
-		(start 219.875 128)
-		(end 284.125 145)
+		(start 111.75 160)
+		(end 176 177)
 		(layer "Cmts.User")
 		(uuid "d7364901-7252-4d5e-b830-e75c0d09aa06")
 		(effects
