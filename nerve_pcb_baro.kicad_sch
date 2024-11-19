@@ -830,7 +830,7 @@
 		(uuid "410c6d7d-5808-4ff0-9ed0-3615ff2f801b")
 	)
 	(junction
-		(at 177.8 101.6)
+		(at 171.45 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55f7adfa-16e4-4853-b200-91deef173e8e")
@@ -860,16 +860,6 @@
 			(type default)
 		)
 		(uuid "049740e4-592e-4721-b481-519eba829653")
-	)
-	(wire
-		(pts
-			(xy 177.8 100.33) (xy 177.8 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ceffd41-6606-4dc6-9b19-a77e0276a930")
 	)
 	(wire
 		(pts
@@ -903,23 +893,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 91.44) (xy 177.8 92.71)
+			(xy 184.15 88.9) (xy 184.15 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "29f9631e-ef50-4739-98d8-ba7e3de53fa9")
-	)
-	(wire
-		(pts
-			(xy 190.5 106.68) (xy 190.5 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d2bc64-6d20-426c-ae83-f77ac51d7b33")
 	)
 	(wire
 		(pts
@@ -930,6 +910,26 @@
 			(type default)
 		)
 		(uuid "3bad29d0-150e-43d5-842b-8e463d0299a8")
+	)
+	(wire
+		(pts
+			(xy 181.61 101.6) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c164d8-fbcf-46c3-9cbe-0dabf188b629")
+	)
+	(wire
+		(pts
+			(xy 171.45 111.76) (xy 171.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45641fe3-1d42-434a-8217-7e4e96a5fbfa")
 	)
 	(wire
 		(pts
@@ -950,16 +950,6 @@
 			(type default)
 		)
 		(uuid "5f063246-ac8d-4372-9127-2c3d3e560ded")
-	)
-	(wire
-		(pts
-			(xy 187.96 106.68) (xy 190.5 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "672ab289-fab0-497f-a329-60e9a61773e9")
 	)
 	(wire
 		(pts
@@ -1003,17 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 106.68) (xy 180.34 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75107dc6-a579-4bfc-beeb-df2582c28af9")
-	)
-	(wire
-		(pts
-			(xy 177.8 106.68) (xy 177.8 101.6)
+			(xy 171.45 102.87) (xy 171.45 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1053,6 +1033,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 101.6) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b47429f-fc2b-414b-b0b6-5e3d08cf65c2")
+	)
+	(wire
+		(pts
 			(xy 139.7 106.68) (xy 139.7 107.95)
 		)
 		(stroke
@@ -1063,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 177.8 101.6)
+			(xy 149.86 101.6) (xy 171.45 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1143,7 +1133,7 @@
 	)
 	(text "Default using 0x76\nSDO to GND: I2C address = 0x76\nSDO to V_{DDIO}: I2C address = 0x77"
 		(exclude_from_sim no)
-		(at 187.706 102.87 0)
+		(at 185.166 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1187,73 +1177,6 @@
 			(justify right)
 		)
 		(uuid "bcbbc4d4-c6e4-4e52-acdb-d0570642f169")
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 184.15 106.68 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "25c20025-0879-4796-86ac-beda3f0bade8")
-		(property "Reference" "JP2"
-			(at 184.15 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Open"
-			(at 184.15 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 184.15 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 184.15 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0748b6c1-db70-442f-a2e9-c8f30414efbc")
-		)
-		(pin "2"
-			(uuid "0173def6-095c-42cb-8229-53bd708c277c")
-		)
-		(instances
-			(project ""
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/9de129d2-0f7b-4a2d-85ad-214e335f6288"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1324,7 +1247,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 177.8 91.44 0)
+		(at 184.15 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1332,7 +1255,7 @@
 		(dnp no)
 		(uuid "50437597-e134-4bd7-bbbf-5440b2114822")
 		(property "Reference" "#PWR071"
-			(at 177.8 95.25 0)
+			(at 184.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1264,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 177.8 87.63 0)
+			(at 184.15 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 91.44 0)
+			(at 184.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 91.44 0)
+			(at 184.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1290,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 177.8 91.44 0)
+			(at 184.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,75 +1305,6 @@
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/9de129d2-0f7b-4a2d-85ad-214e335f6288"
 					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b468dc9-5662-43db-a3bb-9842c3161f2a")
-		(property "Reference" "R22"
-			(at 180.34 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 180.34 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 176.022 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39496cac-fbbb-4ec3-8e37-b09da583c4ec")
-		)
-		(pin "1"
-			(uuid "ec70d4b2-b526-46c6-9d7f-2c932a7975dc")
-		)
-		(instances
-			(project "nerve_pcb"
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/9de129d2-0f7b-4a2d-85ad-214e335f6288"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1662,6 +1516,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 177.8 101.6 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "71d9d402-953b-4f45-bf8b-1fa5fd3d585f")
+		(property "Reference" "JP2"
+			(at 177.8 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Open"
+			(at 177.8 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "641f88ee-5ea0-472e-afcf-3894cc6a073a")
+		)
+		(pin "2"
+			(uuid "bb69fc72-3d2d-4c2f-8257-4b918c082edd")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/9de129d2-0f7b-4a2d-85ad-214e335f6288"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bosch:bmp390")
 		(at 137.16 96.52 0)
 		(unit 1)
@@ -1800,73 +1721,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81edab5a-5d26-4280-b5b4-d479b78afe3a")
-		(property "Reference" "#PWR074"
-			(at 190.5 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a935232d-9d25-4286-885b-1eea45424061")
-		)
-		(instances
-			(project "nerve_pcb"
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/9de129d2-0f7b-4a2d-85ad-214e335f6288"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 139.7 83.82 0)
 		(unit 1)
@@ -1997,6 +1851,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 171.45 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c63c77ba-cbbd-40c8-9e35-beb6fc489d78")
+		(property "Reference" "R22"
+			(at 173.99 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 173.99 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 169.672 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b664ab50-86ba-4fbf-9561-119ac5e48918")
+		)
+		(pin "1"
+			(uuid "878a84f8-b0c6-454c-aa99-e2c807fda7dc")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/9de129d2-0f7b-4a2d-85ad-214e335f6288"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 114.3 96.52 0)
 		(unit 1)
@@ -2056,6 +1979,73 @@
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/9de129d2-0f7b-4a2d-85ad-214e335f6288"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef22a3a3-c9fd-447a-b236-95f2f1212e0a")
+		(property "Reference" "#PWR074"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ffa8349-6b8b-4b5f-8340-61ee68a5524a")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0/9de129d2-0f7b-4a2d-85ad-214e335f6288"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
