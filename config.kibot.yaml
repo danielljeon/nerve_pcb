@@ -61,7 +61,7 @@ outputs:
   - name: "bom_csv"
     comment: "CSV for the Bill of Materials"
     type: bom
-    dir: BOM
+    dir: BoM
     options:
       csv:
         separator: ","  # CSV delimiter.
