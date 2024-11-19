@@ -5586,7 +5586,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3ff4c44d-67a1-488c-bccf-67b8d8e6605a")
 			(effects
@@ -5741,7 +5741,7 @@
 			(uuid "9f5c22c6-b33e-4aec-a4ad-a1e181100523")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e45a5871-73c4-4864-9fa9-aacf77266034")
 			(effects
@@ -20298,11 +20298,87 @@
 			)
 		)
 	)
-	(gr_text_box "PCBWay 6-Layer Stackup:\n  - Thickness: 1.6MM\n  - Finished Outer Copper: 1OZ\n  - Inner Copper: 1OZ\n  - Inner layer Residual copper ratio: 70%"
-		(start 229.75 167)
+	(gr_text_box "PCBWay 6-Layer Stackup (Detailed):\n\nLayer 1 (Top Layer): Copper\n  - 0.035 mm (1 oz)\n\nDielectric 1: Prepreg (2116 RC58)\n  - 0.1195 mm\n\nLayer 2 (Inner Layer 1): Copper\n  - 0.035 mm (1 oz)\n\nDielectric 2: Core (FR4)\n  - 0.43 mm\n\nLayer 3 (Inner Layer 2): Copper\n  - 0.035 mm (1 oz)\n\nDielectric 3: Prepreg (7628 RC46)\n  - 0.175 mm\n\nLayer 4 (Inner Layer 3): Copper\n  - 0.035 mm (1 oz)\n\nDielectric 4: Core (FR4)\n  - 0.43 mm\n\nLayer 5 (Inner Layer 4): Copper\n  - 0.035 mm (1 oz)\n\nDielectric 5: Prepreg (2116 RC58)\n  - 0.1195 mm\n\nLayer 6 (Bottom Layer): Copper\n  - 0.035 mm (1 oz)\n\nOverall Thickness: 1.6 mm"
+		(start 235 13)
+		(end 284.25 102)
+		(layer "Cmts.User")
+		(uuid "0bd60e8d-8efb-4978-a3d0-1321a9343e9c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+	)
+	(gr_text_box "PCBWay 6-Layer Stackup:\n  - Thickness: 1.6 mm\n  - Finished outer copper: 1 oz\n  - Inner copper: 1 oz\n  - Inner layer residual copper ratio: 70%"
+		(start 231.75 167)
 		(end 284 181)
 		(layer "Cmts.User")
 		(uuid "84bdded0-8713-4f14-9627-b2cffc5d14d4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+	)
+	(gr_text_box "50R Surface Microstrip Impedance Control:\n  - Trace width: 0.21 mm\n  - Calculated (Z_{0}): 50.2R"
+		(start 219.875 118)
+		(end 284.125 127)
+		(layer "Cmts.User")
+		(uuid "bc4b3ada-98bc-49ea-840e-aa9eb3a6dd95")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+	)
+	(gr_text_box "120R Surface Differential Pair Impedance Control:\n  - Trace width: 0.18 mm\n  - Gap: 0.5 mm\n  - Via gap: 0.5 mm\n  - Calculated: 119.8R\n  - Calculated (Z_{0}): 59.9R\n  - Calculated (Z_{diff}): 119.8R"
+		(start 219.875 146)
+		(end 284.125 165)
+		(layer "Cmts.User")
+		(uuid "d31f8a76-e6d1-4f0d-8620-a4695b953cdc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+	)
+	(gr_text_box "100R Surface Differential Pair Impedance Control:\n  - Trace width: 0.22 mm\n  - Gap: 0.2 mm\n  - Via gap: 0.5 mm\n  - Calculated (Z_{0}): 50.1R\n  - Calculated (Z_{diff}): 100.2R"
+		(start 219.875 128)
+		(end 284.125 145)
+		(layer "Cmts.User")
+		(uuid "d7364901-7252-4d5e-b830-e75c0d09aa06")
 		(effects
 			(font
 				(size 1.5 1.5)
