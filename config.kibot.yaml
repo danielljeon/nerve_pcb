@@ -191,6 +191,8 @@ outputs:
       title: "+ (%V variant)"  # Append the variant to the title.
       scaling: 1.0
       pages:
+        - layers: [ User.Drawing, User.Comments ]
+          sheet: "User drawings and comments"
         - layers: [ F.Paste, F.Fab ]
           sheet: "Fabrication top layers"
         - layers: [ B.Paste, B.Fab ]
@@ -205,13 +207,17 @@ outputs:
           sheet: "Inner layer 1"
         - layers: [ In2.Cu ]
           sheet: "Inner layer 2"
+        - layers: [ In3.Cu ]
+          sheet: "Inner layer 3"
+        - layers: [ In4.Cu ]
+          sheet: "Inner layer 4"
         - layers:
             - layer: B.Cu
             - layer: B.Mask
               color: "#14332440"  # Yellow.
             - layer: B.Silkscreen
           sheet: "Bottom layer"
-          mirror: true
+          mirror: false
   ##############################################################################
 
   ##############################################################################
