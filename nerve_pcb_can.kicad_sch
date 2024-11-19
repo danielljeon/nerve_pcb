@@ -1199,7 +1199,7 @@
 		(dnp no)
 		(uuid "1bc5212f-7541-4fa1-9d7c-e6dd6656cc77")
 		(property "Reference" "U6"
-			(at 194.056 100.33 0)
+			(at 198.882 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TJA1051T/3"
 			(at 190.1541 100.33 0)
 			(effects
 				(font
@@ -1526,7 +1526,7 @@
 		(dnp no)
 		(uuid "78abdc9a-b74c-4ac0-98e2-b8ef35c89735")
 		(property "Reference" "U5"
-			(at 117.856 100.33 0)
+			(at 122.682 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1534,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TJA1051T/3"
 			(at 113.9541 100.33 0)
 			(effects
 				(font

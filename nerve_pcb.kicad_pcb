@@ -3426,7 +3426,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "BMP390"
 			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "c5775d78-2aba-49a9-9743-9f0753e03c70")
@@ -17654,7 +17654,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TJA1051T/3"
 			(at 0 -3.4 90)
 			(layer "B.Fab")
 			(uuid "8659415f-8b2e-4f89-a1cd-519a0e33bf34")
@@ -18012,7 +18012,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "BNO085"
 			(at 0 -3.5 90)
 			(layer "B.Fab")
 			(uuid "114c76a1-904a-4335-8d8e-f3798f4ee619")
@@ -19817,7 +19817,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TJA1051T/3"
 			(at 0 -3.4 90)
 			(layer "B.Fab")
 			(uuid "b7ea05de-bfce-4605-8f1b-be62bab3fa43")
