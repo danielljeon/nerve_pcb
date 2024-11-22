@@ -6280,6 +6280,12 @@
 		(uuid "1619d6cd-98fe-4de6-aabe-fa8f90305e61")
 	)
 	(junction
+		(at 71.12 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a2c93b7-5595-4fe1-bb46-bebb5e9b7118")
+	)
+	(junction
 		(at 246.38 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6448,12 +6454,6 @@
 		(uuid "ae3fcfde-dce3-4345-9edf-af2314d8a07e")
 	)
 	(junction
-		(at 55.88 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b69fa1ed-83ee-46d5-972c-7c1a926e1656")
-	)
-	(junction
 		(at 119.38 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6512,6 +6512,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbaf9a40-ad54-4c57-ba2b-263bf6c25147")
+	)
+	(junction
+		(at 55.88 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccaaf231-77f1-45fc-b828-1255a63a801d")
 	)
 	(junction
 		(at 220.98 101.6)
@@ -7007,6 +7013,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 57.15) (xy 71.12 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28abb2b4-f04c-4e0f-bfa0-90c9226eb35b")
+	)
+	(wire
+		(pts
 			(xy 276.86 19.05) (xy 276.86 26.67)
 		)
 		(stroke
@@ -7077,6 +7093,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 57.15) (xy 60.96 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d486b2e-b7f2-4844-a367-48fd799bbe14")
+	)
+	(wire
+		(pts
 			(xy 38.1 64.77) (xy 38.1 74.93)
 		)
 		(stroke
@@ -7087,7 +7113,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 64.77) (xy 55.88 78.74)
+			(xy 55.88 64.77) (xy 55.88 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7234,6 +7260,16 @@
 			(type default)
 		)
 		(uuid "3a8e50ea-525c-4f16-bd12-0e2808932e3b")
+	)
+	(wire
+		(pts
+			(xy 60.96 57.15) (xy 60.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b472c82-4ddd-4017-adec-e6d13f75b452")
 	)
 	(wire
 		(pts
@@ -7407,6 +7443,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 71.12) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbfc9f7-7d5b-4f4a-8ed9-1016a4a0d8fc")
+	)
+	(wire
+		(pts
 			(xy 31.75 109.22) (xy 31.75 114.3)
 		)
 		(stroke
@@ -7504,16 +7550,6 @@
 			(type default)
 		)
 		(uuid "5b328dd1-1145-49fb-9683-7deb74c7e6c3")
-	)
-	(wire
-		(pts
-			(xy 71.12 72.39) (xy 71.12 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c9094f7-df56-4407-9d82-85ed3252dfa6")
 	)
 	(wire
 		(pts
@@ -7824,6 +7860,16 @@
 			(type default)
 		)
 		(uuid "72c5d35e-e148-449d-ac24-d9eb33000365")
+	)
+	(wire
+		(pts
+			(xy 71.12 49.53) (xy 71.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "738e12ac-d939-4e87-a385-203425540448")
 	)
 	(wire
 		(pts
@@ -8917,7 +8963,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 64.77) (xy 57.15 64.77)
+			(xy 55.88 71.12) (xy 57.15 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8974,6 +9020,16 @@
 			(type default)
 		)
 		(uuid "e0038ae9-5225-434f-a8c9-3a8ac6d590e6")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 71.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04f8cf4-9947-48f3-8cfb-262e3bdb4663")
 	)
 	(wire
 		(pts
@@ -9449,6 +9505,19 @@
 		)
 		(uuid "46eb69ff-1248-4dfe-850e-28acf4b93008")
 	)
+	(text "V_{BATT} unused\njumper."
+		(exclude_from_sim no)
+		(at 69.85 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "703e184b-e476-4b9f-a44b-493fc56026c9")
+	)
 	(text "USB-C Supply and 5V to 3V3"
 		(exclude_from_sim no)
 		(at 217.932 61.214 0)
@@ -9877,7 +9946,7 @@
 	)
 	(hierarchical_label "NRST"
 		(shape input)
-		(at 57.15 64.77 0)
+		(at 57.15 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12772,7 +12841,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 71.12 72.39 0)
+		(at 71.12 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12780,7 +12849,7 @@
 		(dnp no)
 		(uuid "48366930-1f71-4733-91de-17100b13da25")
 		(property "Reference" "#PWR015"
-			(at 71.12 76.2 0)
+			(at 71.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12789,7 +12858,7 @@
 			)
 		)
 		(property "Value" "+3.3VBATT"
-			(at 70.104 68.58 0)
+			(at 70.104 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12797,7 +12866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 72.39 0)
+			(at 71.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12806,7 +12875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 72.39 0)
+			(at 71.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12815,7 +12884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 71.12 72.39 0)
+			(at 71.12 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16591,6 +16660,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 66.04 57.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c818b8b4-d51c-492a-8145-9b331e439196")
+		(property "Reference" "JP3"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Open"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 66.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 66.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a4c7cd9-325f-4cdc-8656-c7f65541769c")
+		)
+		(pin "2"
+			(uuid "5f13d0a9-ff65-4850-9842-a99da7c793f5")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 167.64 0)
 		(unit 1)
@@ -17372,6 +17508,71 @@
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 60.96 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4e41176-6f7d-46d2-bc6e-e3b8a5cc9cd0")
+		(property "Reference" "#PWR082"
+			(at 60.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 59.944 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 60.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ba65c16-d08d-4bf3-86d1-d2609e73781b")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
