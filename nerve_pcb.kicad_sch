@@ -9774,6 +9774,18 @@
 		)
 		(uuid "1066a44e-1173-44f2-9767-5f746df17886")
 	)
+	(hierarchical_label "USART1_RX"
+		(shape input)
+		(at 254 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "110eda4f-49d0-4c74-af03-a65124f7c8e6")
+	)
 	(hierarchical_label "USART2_TX"
 		(shape input)
 		(at 97.79 83.82 0)
@@ -9917,6 +9929,30 @@
 			(justify left)
 		)
 		(uuid "40f2b5db-2b32-49e4-adf5-9a8c2bbea691")
+	)
+	(hierarchical_label "USART1_TX"
+		(shape input)
+		(at 254 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "433c6f75-8b70-41ea-8518-42b0c005d649")
+	)
+	(hierarchical_label "USART1_CTS"
+		(shape input)
+		(at 241.3 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46ec5c6a-19bf-4f78-9ff9-b3babd84a760")
 	)
 	(hierarchical_label "GPIO_SPI2_CS"
 		(shape input)
@@ -10350,18 +10386,6 @@
 		)
 		(uuid "a62e679f-1818-44f6-ad3d-71b6824ab82d")
 	)
-	(hierarchical_label "USART1_CTS"
-		(shape input)
-		(at 254 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a93b4391-3bd9-4de5-99be-98ccaff4211b")
-	)
 	(hierarchical_label "PA7"
 		(shape input)
 		(at 97.79 96.52 0)
@@ -10385,6 +10409,18 @@
 			(justify right)
 		)
 		(uuid "af994993-5a9b-4f02-bae7-89d4c3966527")
+	)
+	(hierarchical_label "USART1_RTS"
+		(shape input)
+		(at 241.3 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3c61447-dc37-4015-b30c-1e06f63abb8c")
 	)
 	(hierarchical_label "USART3_RX"
 		(shape input)
@@ -10434,18 +10470,6 @@
 		)
 		(uuid "b9bb12e0-6383-4c4d-a502-000f6195dd0b")
 	)
-	(hierarchical_label "USART1_RTS"
-		(shape input)
-		(at 254 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ba13493f-98c1-4a1e-b322-6c983dc62998")
-	)
 	(hierarchical_label "SDIO_CMD"
 		(shape input)
 		(at 59.69 96.52 180)
@@ -10493,18 +10517,6 @@
 			(justify right)
 		)
 		(uuid "c84a31af-854a-4f10-936c-9580ad3ab31c")
-	)
-	(hierarchical_label "USART1_RX"
-		(shape input)
-		(at 241.3 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ca53a34f-ba87-449e-8f68-f3a0636cf16a")
 	)
 	(hierarchical_label "SDIO_CLK"
 		(shape input)
@@ -10577,18 +10589,6 @@
 			(justify left)
 		)
 		(uuid "e020b3ed-d535-4dfc-acd7-68d7a93ce15e")
-	)
-	(hierarchical_label "USART1_TX"
-		(shape input)
-		(at 241.3 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e2d6027c-da6e-4f16-80c3-bb9c542f662b")
 	)
 	(hierarchical_label "SPI2_MOSI"
 		(shape input)
