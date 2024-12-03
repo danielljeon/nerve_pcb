@@ -6889,7 +6889,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 58.42) (xy 165.1 58.42)
+			(xy 163.83 43.18) (xy 165.1 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7579,7 +7579,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 53.34) (xy 165.1 53.34)
+			(xy 163.83 38.1) (xy 165.1 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7639,7 +7639,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 55.88) (xy 165.1 55.88)
+			(xy 163.83 40.64) (xy 165.1 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7759,7 +7759,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 43.18) (xy 165.1 43.18)
+			(xy 163.83 27.94) (xy 165.1 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7869,7 +7869,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 30.48) (xy 165.1 30.48)
+			(xy 163.83 58.42) (xy 165.1 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8029,7 +8029,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 48.26) (xy 165.1 48.26)
+			(xy 163.83 33.02) (xy 165.1 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8139,7 +8139,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 50.8) (xy 165.1 50.8)
+			(xy 163.83 35.56) (xy 165.1 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8929,7 +8929,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 27.94) (xy 165.1 27.94)
+			(xy 163.83 55.88) (xy 165.1 55.88)
 		)
 		(stroke
 			(width 0)
@@ -9189,7 +9189,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 45.72) (xy 165.1 45.72)
+			(xy 163.83 30.48) (xy 165.1 30.48)
 		)
 		(stroke
 			(width 0)
@@ -9704,7 +9704,7 @@
 	)
 	(hierarchical_label "I2C1_SCL"
 		(shape input)
-		(at 163.83 27.94 180)
+		(at 163.83 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9716,7 +9716,7 @@
 	)
 	(hierarchical_label "GPIO_IMU_RST"
 		(shape input)
-		(at 163.83 55.88 180)
+		(at 163.83 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9800,7 +9800,7 @@
 	)
 	(hierarchical_label "SPI2_MISO"
 		(shape input)
-		(at 163.83 50.8 180)
+		(at 163.83 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9884,7 +9884,7 @@
 	)
 	(hierarchical_label "SPI2_SCK"
 		(shape input)
-		(at 163.83 45.72 180)
+		(at 163.83 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9968,7 +9968,7 @@
 	)
 	(hierarchical_label "GPIO_IMU_P0"
 		(shape input)
-		(at 163.83 58.42 180)
+		(at 163.83 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10052,7 +10052,7 @@
 	)
 	(hierarchical_label "GPIO_SPI2_CS"
 		(shape input)
-		(at 163.83 53.34 180)
+		(at 163.83 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10316,7 +10316,7 @@
 	)
 	(hierarchical_label "EXTI0_IMU_INT"
 		(shape input)
-		(at 163.83 43.18 180)
+		(at 163.83 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10484,7 +10484,7 @@
 	)
 	(hierarchical_label "I2C1_SDA"
 		(shape input)
-		(at 163.83 30.48 180)
+		(at 163.83 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10532,7 +10532,7 @@
 	)
 	(hierarchical_label "SPI2_MOSI"
 		(shape input)
-		(at 163.83 48.26 180)
+		(at 163.83 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18958,7 +18958,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 40.64)
+		(at 165.1 25.4)
 		(size 31.75 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -18970,7 +18970,7 @@
 		)
 		(uuid "1178a2c5-f6af-4893-bc81-c8b9cb81f032")
 		(property "Sheetname" "nerve_pcb_imu"
-			(at 165.1 39.9284 0)
+			(at 165.1 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18979,7 +18979,7 @@
 			)
 		)
 		(property "Sheetfile" "nerve_pcb_imu.kicad_sch"
-			(at 165.1 61.5446 0)
+			(at 165.1 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18988,7 +18988,7 @@
 			)
 		)
 		(pin "IMU_INT" input
-			(at 165.1 43.18 180)
+			(at 165.1 27.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18998,7 +18998,7 @@
 			(uuid "fe050cb3-2c23-425a-bc0f-96cd9b5e1a34")
 		)
 		(pin "IMU_NRST" input
-			(at 165.1 55.88 180)
+			(at 165.1 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19008,7 +19008,7 @@
 			(uuid "2ef05507-ddc7-4336-af9d-cdcee183760c")
 		)
 		(pin "IMU_CS" input
-			(at 165.1 53.34 180)
+			(at 165.1 38.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19018,7 +19018,7 @@
 			(uuid "a6bd9581-af94-42a6-a607-577a5ec7e924")
 		)
 		(pin "IMU_MOSI" input
-			(at 165.1 48.26 180)
+			(at 165.1 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19028,7 +19028,7 @@
 			(uuid "6b6a99e0-6b43-4316-8573-9eee2c9e6816")
 		)
 		(pin "IMU_MISO" input
-			(at 165.1 50.8 180)
+			(at 165.1 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19038,7 +19038,7 @@
 			(uuid "330b82f7-8543-4926-aec9-4ea09bfb2b9e")
 		)
 		(pin "IMU_SCK" input
-			(at 165.1 45.72 180)
+			(at 165.1 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19048,7 +19048,7 @@
 			(uuid "9c575159-6ae6-45a8-be2c-4e74c957839c")
 		)
 		(pin "IMU_PS0" input
-			(at 165.1 58.42 180)
+			(at 165.1 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19144,7 +19144,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 25.4)
+		(at 165.1 53.34)
 		(size 31.75 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -19156,7 +19156,7 @@
 		)
 		(uuid "9de129d2-0f7b-4a2d-85ad-214e335f6288")
 		(property "Sheetname" "nerve_pcb_baro"
-			(at 165.1 24.6884 0)
+			(at 165.1 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19165,7 +19165,7 @@
 			)
 		)
 		(property "Sheetfile" "nerve_pcb_baro.kicad_sch"
-			(at 165.1 33.6046 0)
+			(at 165.1 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19174,7 +19174,7 @@
 			)
 		)
 		(pin "BARO_I2C_SDA" input
-			(at 165.1 30.48 180)
+			(at 165.1 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19184,7 +19184,7 @@
 			(uuid "1f1ccdd5-dbfd-4cba-bc8c-9f93363d4e97")
 		)
 		(pin "BARO_I2C_SCL" input
-			(at 165.1 27.94 180)
+			(at 165.1 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
