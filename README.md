@@ -10,6 +10,20 @@ Nerve production board for complete application integration
 
 ---
 
+<details markdown="1">
+  <summary>Table of Contents</summary>
+
+<!-- TOC -->
+* [nerve_pcb](#nerve_pcb)
+  * [1 Overview](#1-overview)
+    * [1.1 Connectors](#11-connectors)
+    * [1.2 Switches & Jumpers](#12-switches--jumpers)
+<!-- TOC -->
+
+</details>
+
+---
+
 ## 1 Overview
 
 Production optimized PCB for the STM32
