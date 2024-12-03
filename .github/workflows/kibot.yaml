@@ -98,6 +98,16 @@ jobs:
     # needs: [ kibot_erc, kibot_drc ]
 
     steps:
+      - name: Combine repo name and short hash
+        run: |
+          # Extract the repository name from $GITHUB_REPOSITORY.
+          REPO_NAME=$(echo "${{ github.repository }}" | awk -F'/' '{print $2}')
+          # Extract the short commit hash from $GITHUB_SHA.
+          SHORT_HASH=$(echo "${{ github.sha }}" | cut -c1-7)
+          # Combine the repo name and the short hash.
+          FILENAME="${REPO_NAME}-${SHORT_HASH}"
+          echo "FILENAME=$FILENAME" >> $GITHUB_ENV
+
       - uses: actions/checkout@v4
         with:
           submodules: true
@@ -115,5 +125,6 @@ jobs:
       - name: Upload result artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: default_variant
+          # Repo name followed by commit SHA (7 character).
+          name: "${{ env.FILENAME }}"
           path: default
