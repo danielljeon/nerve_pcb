@@ -2348,12 +2348,12 @@
 				)
 			)
 		)
-		(symbol "common:abm3b-8.000mhz-10-1-u-t"
+		(symbol "common:ecs-80-18-23b-jtn-tr_8mhz"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 4.572 6.35 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2361,14 +2361,14 @@
 				)
 			)
 			(property "Value" "8M"
-				(at 4.572 3.81 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "common:xtal_abm3b-8.000mhz-10-1-u-t"
+			(property "Footprint" "common:ecs_ecx-64"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2377,7 +2377,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://abracon.com/Resonators/abm3b.pdf"
+			(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx_64r.pdf"
 				(at 13.97 0 0)
 				(effects
 					(font
@@ -2386,7 +2386,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CRYSTAL 8.0000MHZ 10PF SMD"
+			(property "Description" "8 MHz ±20ppm Crystal 18pF 60 Ohms 4-SMD, No Lead"
 				(at 13.97 0 0)
 				(effects
 					(font
@@ -2395,7 +2395,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Abracon LLC"
+			(property "Manufacturer" "ECS Inc."
 				(at 0 0 0)
 				(effects
 					(font
@@ -2404,7 +2404,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "ABM3B-8.000MHZ-10-1-U-T"
+			(property "Manufacturer Part Number" "ECS-80-18-23B-JTN-TR"
 				(at 13.97 0 0)
 				(effects
 					(font
@@ -2422,7 +2422,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Part Number" "535-9721-1-ND"
+			(property "Distributor Part Number" "XC3083CT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2431,7 +2431,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/abracon-llc/ABM3B-8-000MHZ-10-1-U-T/1873167?s=N4IgTCBcDaIIICMBOBDAxgewHYAI4CEBZAZnwFoAOAOgAY7CAJALTIEYa2yBVMgFRAC6AXyA"
+			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/ecs-inc/ECS-80-18-23B-JTN-TR/9953216?s=N4IgTCBcDaIKIGEDKBaAHABhQRjSsAzAEIoBSAKgHIrkBKIAugL5A"
 				(at 13.97 0 0)
 				(effects
 					(font
@@ -2440,7 +2440,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "abm3b-8.000mhz-10-1-u-t_0_1"
+			(symbol "ecs-80-18-23b-jtn-tr_8mhz_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -2478,30 +2478,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.905 -1.27) (xy 1.905 1.27)
 					)
 					(stroke
@@ -2526,7 +2502,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+						(xy -2.54 -2.54) (xy -2.54 -3.81) (xy 2.54 -3.81) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -2538,7 +2514,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+						(xy -2.54 2.54) (xy -2.54 3.81) (xy 2.54 3.81) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2549,7 +2525,7 @@
 					)
 				)
 			)
-			(symbol "abm3b-8.000mhz-10-1-u-t_1_0"
+			(symbol "ecs-80-18-23b-jtn-tr_8mhz_1_0"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -2587,9 +2563,9 @@
 					)
 				)
 			)
-			(symbol "abm3b-8.000mhz-10-1-u-t_1_1"
+			(symbol "ecs-80-18-23b-jtn-tr_8mhz_1_1"
 				(pin power_in line
-					(at 0 5.08 270)
+					(at -1.27 -5.08 90)
 					(length 1.27)
 					(name ""
 						(effects
@@ -2607,7 +2583,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -5.08 90)
+					(at 1.27 -5.08 90)
 					(length 1.27)
 					(name ""
 						(effects
@@ -2626,7 +2602,7 @@
 				)
 			)
 		)
-		(symbol "common:abs25-32.768khz-6-t"
+		(symbol "common:ecs-_327-12_5-34r-c-tr_32k768hz"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2646,7 +2622,7 @@
 					)
 				)
 			)
-			(property "Footprint" "common:xtal_abs25-32.768khz-6-t"
+			(property "Footprint" "common:ecs_ecx-34r"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2655,7 +2631,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://abracon.com/Resonators/abs25.pdf"
+			(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX_34R.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2664,7 +2640,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CRYSTAL 32.7680KHz 6PF SMD"
+			(property "Description" "32.768 kHz ±10ppm Crystal 12.5pF 50 kOhms 2-SMD, No Lead"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2673,7 +2649,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Abracon LLC"
+			(property "Manufacturer" "ECS Inc."
 				(at 0 0 0)
 				(effects
 					(font
@@ -2682,7 +2658,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "ABS25-32.768KHZ-6-T"
+			(property "Manufacturer Part Number" "ECS-.327-12.5-34R-C-TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2700,7 +2676,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Part Number" "535-10240-1-ND"
+			(property "Distributor Part Number" "XC2127CT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2709,7 +2685,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/abracon-llc/ABS25-32-768KHZ-6-T/2217986"
+			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/ecs-inc/ECS-327-12-5-34R-C-TR/5875553?s=N4IgTCBcDaIKIGEDKBaAdAZjAdhQRjDQFYUMAWAJRQRQBUKQBdAXyA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2718,7 +2694,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "abs25-32.768khz-6-t_0_1"
+			(symbol "ecs-_327-12_5-34r-c-tr_32k768hz_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -2779,7 +2755,7 @@
 					)
 				)
 			)
-			(symbol "abs25-32.768khz-6-t_1_0"
+			(symbol "ecs-_327-12_5-34r-c-tr_32k768hz_1_0"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -6292,10 +6268,22 @@
 		(uuid "1db0889f-1fcc-4023-b0ac-66e996846492")
 	)
 	(junction
+		(at 25.4 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20537ae5-1103-4e6b-aac8-09e31da28a4b")
+	)
+	(junction
 		(at 228.6 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d9e164c-788b-4db4-bd57-a1b2d2e8d37c")
+	)
+	(junction
+		(at 31.75 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "412ffbab-24e7-4583-b32e-3aca1c4bafbf")
 	)
 	(junction
 		(at 106.68 54.61)
@@ -6310,16 +6298,22 @@
 		(uuid "483c8083-4c56-43b2-a1ec-b11d75a0ccb1")
 	)
 	(junction
+		(at 31.75 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49c5db01-d612-4a19-8c96-5c2039bf85a5")
+	)
+	(junction
+		(at 38.1 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e77e5ef-6d71-4996-8aa3-cb64c8ee86cf")
+	)
+	(junction
 		(at 226.06 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f47d9fb-78d8-42d4-9fff-2d9f2b3a4661")
-	)
-	(junction
-		(at 31.75 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51e38604-f797-438f-9dbf-a5ae4038bd9f")
 	)
 	(junction
 		(at 251.46 26.67)
@@ -6400,6 +6394,18 @@
 		(uuid "8669027c-3182-4783-8420-728c483ccff0")
 	)
 	(junction
+		(at 33.02 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "881902f2-e475-4fa3-af8f-76550a99083c")
+	)
+	(junction
+		(at 25.4 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88460374-e3df-4af1-9e4d-b33d38fbd0c8")
+	)
+	(junction
 		(at 31.75 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6460,6 +6466,12 @@
 		(uuid "ae3fcfde-dce3-4345-9edf-af2314d8a07e")
 	)
 	(junction
+		(at 30.48 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4addd24-bc06-4e24-85c2-59b128c56f09")
+	)
+	(junction
 		(at 119.38 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6484,24 +6496,6 @@
 		(uuid "bdce7b43-8490-42e3-be49-b0d0d21e418e")
 	)
 	(junction
-		(at 25.4 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2252f0a-9069-4405-be29-ac5ada511b63")
-	)
-	(junction
-		(at 25.4 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3052510-4f95-4b25-aa14-9b2d622cad69")
-	)
-	(junction
-		(at 31.75 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7e1b794-3caf-458b-a1c6-2e7d9cc477e7")
-	)
-	(junction
 		(at 76.2 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6518,6 +6512,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbaf9a40-ad54-4c57-ba2b-263bf6c25147")
+	)
+	(junction
+		(at 38.1 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd5ff5e9-a547-43f4-a0a4-31816e90d610")
 	)
 	(junction
 		(at 220.98 101.6)
@@ -6538,12 +6538,6 @@
 		(uuid "de297573-e30c-4b42-9cbf-3e9d4293eb61")
 	)
 	(junction
-		(at 38.1 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e73b97e5-e616-4540-a0b3-ddd725c61a3e")
-	)
-	(junction
 		(at 119.38 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6554,12 +6548,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f01bd069-2376-4f03-8664-260bc942ba1a")
-	)
-	(junction
-		(at 38.1 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f303e184-3b32-4bbe-a535-30df1e68118e")
 	)
 	(junction
 		(at 110.49 74.93)
@@ -6809,23 +6797,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 88.9) (xy 25.4 95.25)
+			(xy 25.4 88.9) (xy 25.4 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "146d7419-9dcd-4301-a55c-2b1d8922f2c9")
-	)
-	(wire
-		(pts
-			(xy 34.29 96.52) (xy 34.29 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14de70fa-b4da-4842-8090-99f1c6481d5a")
 	)
 	(wire
 		(pts
@@ -6846,6 +6824,16 @@
 			(type default)
 		)
 		(uuid "15400828-677a-497e-b3b5-6ebe136b7aeb")
+	)
+	(wire
+		(pts
+			(xy 31.75 114.3) (xy 33.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1774d417-fbaa-48f2-9f4f-435f12b78357")
 	)
 	(wire
 		(pts
@@ -6929,7 +6917,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 149.86) (xy 25.4 151.13)
+			(xy 25.4 149.86) (xy 25.4 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6979,7 +6967,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 160.02) (xy 25.4 161.29)
+			(xy 25.4 162.56) (xy 25.4 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7066,6 +7054,16 @@
 			(type default)
 		)
 		(uuid "299789a9-4263-4845-bf4a-413d25fa49a4")
+	)
+	(wire
+		(pts
+			(xy 30.48 106.68) (xy 30.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a2b862-e86d-49be-aed5-39a577554f85")
 	)
 	(wire
 		(pts
@@ -7249,6 +7247,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 114.3) (xy 31.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a832da4-2b72-4d34-ac44-230eb49bb79a")
+	)
+	(wire
+		(pts
 			(xy 93.98 45.72) (xy 93.98 44.45)
 		)
 		(stroke
@@ -7339,7 +7347,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 161.29) (xy 38.1 161.29)
+			(xy 31.75 165.1) (xy 38.1 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7356,6 +7364,16 @@
 			(type default)
 		)
 		(uuid "443ee5a3-4a99-4439-84e4-bb19edb7af87")
+	)
+	(wire
+		(pts
+			(xy 25.4 114.3) (xy 30.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4440088f-f4dc-48ae-b462-fd1b806999fe")
 	)
 	(wire
 		(pts
@@ -7409,7 +7427,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 104.14) (xy 35.56 104.14)
+			(xy 38.1 101.6) (xy 35.56 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7436,16 +7454,6 @@
 			(type default)
 		)
 		(uuid "4c9ea7cb-90e6-4f87-ac83-e45fe3842063")
-	)
-	(wire
-		(pts
-			(xy 31.75 109.22) (xy 31.75 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e8b64b5-3b29-4ba9-b8b7-56d6c8134708")
 	)
 	(wire
 		(pts
@@ -7809,6 +7817,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 114.3) (xy 38.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffefb86-a62f-4837-9e4a-987fc852d9b5")
+	)
+	(wire
+		(pts
 			(xy 71.12 60.96) (xy 71.12 73.66)
 		)
 		(stroke
@@ -7849,7 +7867,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 151.13) (xy 25.4 151.13)
+			(xy 27.94 152.4) (xy 25.4 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7939,7 +7957,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 151.13) (xy 35.56 151.13)
+			(xy 38.1 152.4) (xy 35.56 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7959,7 +7977,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 102.87) (xy 25.4 104.14)
+			(xy 25.4 100.33) (xy 25.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7996,6 +8014,16 @@
 			(type default)
 		)
 		(uuid "7d730bfc-eb29-4cd1-859f-34ba6b207cba")
+	)
+	(wire
+		(pts
+			(xy 25.4 111.76) (xy 25.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dcdab5e-e586-4a93-a31b-e85c220a5839")
 	)
 	(wire
 		(pts
@@ -8119,13 +8147,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 113.03) (xy 25.4 114.3)
+			(xy 38.1 111.76) (xy 38.1 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8843f2fd-9736-4310-a871-968135e4be4c")
+		(uuid "88f7d52f-681f-4cbe-9c02-94a86341745b")
 	)
 	(wire
 		(pts
@@ -8279,13 +8307,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 114.3) (xy 38.1 114.3)
+			(xy 38.1 152.4) (xy 38.1 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93e8703e-3e73-47a9-ab52-20fcb1498a2e")
+		(uuid "9410fe23-f6a1-414a-93b9-44ecf888428d")
 	)
 	(wire
 		(pts
@@ -8319,7 +8347,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 91.44) (xy 38.1 104.14)
+			(xy 38.1 91.44) (xy 38.1 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8436,26 +8464,6 @@
 			(type default)
 		)
 		(uuid "a7723748-a261-4b1f-97aa-2f88758d8c2e")
-	)
-	(wire
-		(pts
-			(xy 31.75 95.25) (xy 31.75 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7ede584-4c11-4693-849e-22f4283b78eb")
-	)
-	(wire
-		(pts
-			(xy 25.4 114.3) (xy 31.75 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a81d494d-f864-40b6-8d3d-36660b5395e5")
 	)
 	(wire
 		(pts
@@ -8639,6 +8647,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 101.6) (xy 38.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2db4da9-b109-4aba-a05b-54cc389c64fe")
+	)
+	(wire
+		(pts
 			(xy 96.52 101.6) (xy 97.79 101.6)
 		)
 		(stroke
@@ -8649,7 +8667,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 160.02) (xy 38.1 161.29)
+			(xy 38.1 162.56) (xy 38.1 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8659,13 +8677,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 149.86) (xy 38.1 151.13)
+			(xy 38.1 149.86) (xy 38.1 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b640fba6-08bc-4e99-b257-26a94168296c")
+	)
+	(wire
+		(pts
+			(xy 31.75 165.1) (xy 31.75 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82e3d8e-88c1-437d-989e-7bf3c6f72343")
 	)
 	(wire
 		(pts
@@ -8709,6 +8737,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 106.68) (xy 33.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea01206-aa44-4342-9605-7e4d7f668da0")
+	)
+	(wire
+		(pts
 			(xy 35.56 38.1) (xy 36.83 38.1)
 		)
 		(stroke
@@ -8716,6 +8754,16 @@
 			(type default)
 		)
 		(uuid "bed391df-55d7-40cd-9f3d-a4b0026ca530")
+	)
+	(wire
+		(pts
+			(xy 25.4 152.4) (xy 25.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfaedc48-d96c-4554-b974-3fd03b1b22ed")
 	)
 	(wire
 		(pts
@@ -8739,7 +8787,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 104.14) (xy 25.4 105.41)
+			(xy 25.4 101.6) (xy 25.4 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8809,7 +8857,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 161.29) (xy 31.75 161.29)
+			(xy 25.4 165.1) (xy 31.75 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8849,16 +8897,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 104.14) (xy 38.1 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb09682b-42dd-45c3-928f-46c7f0097821")
-	)
-	(wire
-		(pts
 			(xy 260.35 124.46) (xy 254 124.46)
 		)
 		(stroke
@@ -8889,16 +8927,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 151.13) (xy 38.1 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d130e24b-dafe-4b6f-89a5-e93866271fe1")
-	)
-	(wire
-		(pts
 			(xy 234.95 124.46) (xy 241.3 124.46)
 		)
 		(stroke
@@ -8916,16 +8944,6 @@
 			(type default)
 		)
 		(uuid "d2579693-c636-47d4-b8f8-f4a17e14516a")
-	)
-	(wire
-		(pts
-			(xy 25.4 151.13) (xy 25.4 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4934ba2-bafe-4a63-9e85-f3692836800c")
 	)
 	(wire
 		(pts
@@ -8976,16 +8994,6 @@
 			(type default)
 		)
 		(uuid "d798345f-2446-410e-8335-f9716c41d954")
-	)
-	(wire
-		(pts
-			(xy 31.75 161.29) (xy 31.75 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d81c8089-1163-4e52-8e01-2c026d424ff7")
 	)
 	(wire
 		(pts
@@ -9129,13 +9137,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 113.03) (xy 38.1 114.3)
+			(xy 31.75 114.3) (xy 31.75 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2ede210-2f54-4b18-b359-ad0f63646736")
+		(uuid "e3b5b401-b139-40d1-a964-6e2d7e127f37")
 	)
 	(wire
 		(pts
@@ -9146,16 +9154,6 @@
 			(type default)
 		)
 		(uuid "e4af8f56-dd95-465f-9363-4d400f79f104")
-	)
-	(wire
-		(pts
-			(xy 34.29 95.25) (xy 31.75 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5e0678f-8fd9-4f17-8824-a4bce1829f7b")
 	)
 	(wire
 		(pts
@@ -9369,7 +9367,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 104.14) (xy 25.4 104.14)
+			(xy 27.94 101.6) (xy 25.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9446,16 +9444,6 @@
 			(type default)
 		)
 		(uuid "ffda1968-5914-45d4-b129-a0977775f240")
-	)
-	(wire
-		(pts
-			(xy 31.75 114.3) (xy 31.75 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffece340-092e-4c57-8c96-421352e36802")
 	)
 	(rectangle
 		(start 49.53 12.7)
@@ -9737,18 +9725,6 @@
 			(justify right)
 		)
 		(uuid "0ee9f7b2-dabb-4be3-8467-1e2cb3043dbe")
-	)
-	(hierarchical_label "GPIO_IMU_P0"
-		(shape input)
-		(at 59.69 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0fea4337-9dbc-4c67-a96e-1675c77bc461")
 	)
 	(hierarchical_label "PC1"
 		(shape input)
@@ -10398,6 +10374,18 @@
 		)
 		(uuid "aa2af36c-ab9a-44ab-bd21-7168e28b756e")
 	)
+	(hierarchical_label "GPIO_IMU_P0"
+		(shape input)
+		(at 97.79 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abdb46d2-ead2-4ca2-a773-2b7d72b3dc8e")
+	)
 	(hierarchical_label "GPIO_RADIO_RST"
 		(shape input)
 		(at 59.69 127 180)
@@ -10626,6 +10614,18 @@
 		)
 		(uuid "e8ef4713-bb6a-446b-8e1e-1ae586a63e82")
 	)
+	(hierarchical_label "GPIO_IMU_RST"
+		(shape input)
+		(at 59.69 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec6e1091-b8c8-4ab5-8c53-cdb020944994")
+	)
 	(hierarchical_label "USART3_TX"
 		(shape input)
 		(at 241.3 149.86 180)
@@ -10686,18 +10686,6 @@
 		)
 		(uuid "f7bafa5b-846c-4392-8ca2-bad84f444d18")
 	)
-	(hierarchical_label "GPIO_IMU_RST"
-		(shape input)
-		(at 97.79 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f886118b-5310-44ed-bfd5-ce03c0136cb4")
-	)
 	(hierarchical_label "GPIO_GPS_RST"
 		(shape input)
 		(at 190.5 134.62 180)
@@ -10744,7 +10732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00fd8ed9-8976-4ec4-bc18-019c439f8292")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 209.55 134.62 0)
 			(effects
 				(font
@@ -10795,7 +10783,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10865,6 +10853,118 @@
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:ecs-_327-12_5-34r-c-tr_32k768hz")
+		(at 31.75 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "074e99c6-b375-4fca-a19d-64b74dfc0cb5")
+		(property "Reference" "Y2"
+			(at 31.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "32k768"
+			(at 31.75 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "common:ecs_ecx-34r"
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX_34R.pdf"
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32.768 kHz ±10ppm Crystal 12.5pF 50 kOhms 2-SMD, No Lead"
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ECS Inc."
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ECS-.327-12.5-34R-C-TR"
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "XC2127CT-ND"
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/ecs-inc/ECS-327-12-5-34R-C-TR/5875553?s=N4IgTCBcDaIKIGEDKBaAdAZjAdhQRjDQFYUMAWAJRQRQBUKQBdAXyA"
+			(at 31.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0712ec8-ea3b-4d48-bbd3-ae306c92ecd9")
+		)
+		(pin "1"
+			(uuid "73e8ad88-e047-4668-a333-4241051ad653")
+		)
+		(instances
+			(project ""
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -11093,7 +11193,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 25.4 99.06 0)
+		(at 25.4 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11101,7 +11201,7 @@
 		(dnp no)
 		(uuid "16c051d3-62bf-46c1-9a73-096985a9fe2a")
 		(property "Reference" "R11"
-			(at 23.622 97.79 0)
+			(at 23.622 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11110,7 +11210,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 23.622 100.33 0)
+			(at 23.622 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11119,7 +11219,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 23.622 99.06 90)
+			(at 23.622 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11128,7 +11228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 99.06 0)
+			(at 25.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11137,7 +11237,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 25.4 99.06 0)
+			(at 25.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11171,7 +11271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1778d666-bda2-4109-8f4f-2eb77a313690")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 260.35 144.78 0)
 			(effects
 				(font
@@ -11222,74 +11322,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 34.29 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1954efc5-92fc-4840-b755-0cd2b8f41dc0")
-		(property "Reference" "#PWR026"
-			(at 34.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c123dc5e-d4a2-4620-a1bf-226bd1eb9f99")
-		)
-		(instances
-			(project "nerve_ada_board"
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR026")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11553,7 +11586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "224cd913-6d60-49c0-9fae-a987b65feb81")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 255.27 124.46 0)
 			(effects
 				(font
@@ -11603,7 +11636,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11619,7 +11652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2284c699-8bac-4c3e-97b5-6a0dea47c1a8")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR057"
 			(at 44.45 200.66 0)
 			(effects
 				(font
@@ -11670,7 +11703,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR058")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11752,7 +11785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23edb189-c887-466a-a42c-85171f2e59ac")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 204.47 124.46 0)
 			(effects
 				(font
@@ -11802,7 +11835,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11950,7 +11983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a05466e-315c-4c64-bae6-c0c1c11c6945")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 234.95 152.4 0)
 			(effects
 				(font
@@ -12001,7 +12034,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12084,7 +12117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bf2782c-3f47-484b-87b1-1d4adb3d5c6d")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 184.15 132.08 0)
 			(effects
 				(font
@@ -12135,7 +12168,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12150,7 +12183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d44f7e0-a4ff-44a0-85b3-a4d0b93d929c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -12200,7 +12233,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12342,7 +12375,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.1 109.22 0)
+		(at 38.1 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12350,7 +12383,7 @@
 		(dnp no)
 		(uuid "3a4eed70-29b6-4ed6-822d-bc64e951a484")
 		(property "Reference" "C13"
-			(at 40.64 107.95 0)
+			(at 40.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12358,8 +12391,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20p"
-			(at 40.64 110.49 0)
+		(property "Value" "26p"
+			(at 40.64 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12368,7 +12401,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 39.0652 113.03 0)
+			(at 39.0652 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12377,7 +12410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 109.22 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12386,7 +12419,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 38.1 109.22 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12550,7 +12583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c178f1d-4663-4946-8a1c-5a616e4bd3e4")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 260.35 154.94 0)
 			(effects
 				(font
@@ -12601,7 +12634,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -13030,7 +13063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd3dafa-a269-4f2f-a793-67d89062887f")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 234.95 137.16 0)
 			(effects
 				(font
@@ -13081,7 +13114,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13301,7 +13334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e291e63-de0d-4921-ac86-c37219eb5206")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR056"
 			(at 31.75 200.66 0)
 			(effects
 				(font
@@ -13352,7 +13385,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR057")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -13368,7 +13401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6016c06f-39dd-413a-b8f0-5d70f9d2a206")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 247.65 115.57 0)
 			(effects
 				(font
@@ -13419,7 +13452,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13568,7 +13601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "670ec7f0-51c9-499d-b0df-a5c0516f6bf0")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 234.95 127 0)
 			(effects
 				(font
@@ -13618,7 +13651,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -13635,7 +13668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "685c5451-2f8a-466c-9fa0-298f124ad1b4")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 260.35 129.54 0)
 			(effects
 				(font
@@ -13686,7 +13719,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13702,7 +13735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ba76ab6-80ee-4e6f-9346-02935802ab07")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 57.15 200.66 0)
 			(effects
 				(font
@@ -13753,7 +13786,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -13973,7 +14006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7540af71-a9c2-441d-aec0-69c27ab5c5a4")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 260.35 137.16 0)
 			(effects
 				(font
@@ -14024,7 +14057,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -14041,7 +14074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b6cca50-339a-439d-9645-ee5f2c300305")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 260.35 149.86 0)
 			(effects
 				(font
@@ -14092,7 +14125,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -14108,7 +14141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e756b1f-3399-48c5-aa8d-dbe03fe81138")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 231.14 109.22 0)
 			(effects
 				(font
@@ -14159,7 +14192,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14302,7 +14335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "828ac921-1bd6-4012-899c-5a00b6a46905")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 276.86 105.41 0)
 			(effects
 				(font
@@ -14353,7 +14386,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14495,7 +14528,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 25.4 156.21 0)
+		(at 25.4 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14503,15 +14536,6 @@
 		(dnp no)
 		(uuid "87b0c49d-ba3b-43e0-9a81-680914dbae90")
 		(property "Reference" "C15"
-			(at 22.86 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1p5"
 			(at 22.86 157.48 0)
 			(effects
 				(font
@@ -14520,8 +14544,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "15p"
+			(at 22.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 26.3652 160.02 0)
+			(at 26.3652 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14530,7 +14563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 156.21 0)
+			(at 25.4 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14539,7 +14572,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 25.4 156.21 0)
+			(at 25.4 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14573,7 +14606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88db655a-2616-4112-a53a-fe3b2adf9176")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 260.35 127 0)
 			(effects
 				(font
@@ -14624,7 +14657,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14709,7 +14742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bd8fff1-8133-449f-b3c7-70af357f9f00")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 59.69 161.29 0)
 			(effects
 				(font
@@ -14760,119 +14793,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "common:abs25-32.768khz-6-t")
-		(at 31.75 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f189112-ae71-486a-9e1c-6869a342cc1e")
-		(property "Reference" "Y2"
-			(at 31.75 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32k768"
-			(at 31.75 146.812 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "common:xtal_abs25-32.768khz-6-t"
-			(at 31.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://abracon.com/Resonators/abs25.pdf"
-			(at 31.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRYSTAL 32.7680KHz 6PF SMD"
-			(at 31.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Abracon LLC"
-			(at 31.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "ABS25-32.768KHZ-6-T"
-			(at 31.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 31.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "535-10240-1-ND"
-			(at 31.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/abracon-llc/ABS25-32-768KHZ-6-T/2217986"
-			(at 31.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2c223e03-bb05-45a5-bda7-e0189c2468f4")
-		)
-		(pin "1"
-			(uuid "95c80b34-f364-4662-b497-bd1fde8a9509")
-		)
-		(instances
-			(project "nerve_pcb"
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "Y2")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -14953,7 +14874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9070a94a-c639-4012-bd84-57ad0576a029")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR055"
 			(at 19.05 200.66 0)
 			(effects
 				(font
@@ -15004,7 +14925,125 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR056")
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:ecs-80-18-23b-jtn-tr_8mhz")
+		(at 31.75 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "926f931a-45d6-49d4-82f2-1f9cca3c82de")
+		(property "Reference" "Y1"
+			(at 31.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8M"
+			(at 31.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "common:ecs_ecx-64"
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx_64r.pdf"
+			(at 45.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 MHz ±20ppm Crystal 18pF 60 Ohms 4-SMD, No Lead"
+			(at 45.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ECS Inc."
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ECS-80-18-23B-JTN-TR"
+			(at 45.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "XC3083CT-ND"
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/ecs-inc/ECS-80-18-23B-JTN-TR/9953216?s=N4IgTCBcDaIKIGEDKBaAHABhQRjSsAzAEIoBSAKgHIrkBKIAugL5A"
+			(at 45.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da0e2e44-665d-426d-ae80-c3db95418baf")
+		)
+		(pin "4"
+			(uuid "51c59693-9d0c-445c-abb4-e036623dd27f")
+		)
+		(pin "3"
+			(uuid "b6e5c90c-5e63-4a55-9392-0d734cef8eda")
+		)
+		(pin "2"
+			(uuid "1f268901-cc88-482d-b4ea-7d4f5744c715")
+		)
+		(instances
+			(project ""
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -15222,7 +15261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9771c5f6-3b8f-4dca-b967-03f4a38f998c")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 234.95 147.32 0)
 			(effects
 				(font
@@ -15273,7 +15312,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -15289,7 +15328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0543028-f830-4ab9-809e-f96aa4b43401")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 31.75 121.92 0)
 			(effects
 				(font
@@ -15340,7 +15379,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15482,124 +15521,6 @@
 		)
 	)
 	(symbol
-		(lib_id "common:abm3b-8.000mhz-10-1-u-t")
-		(at 31.75 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5c8eb6c-3ff4-4e57-9848-32e8de597370")
-		(property "Reference" "Y1"
-			(at 29.718 94.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "8M"
-			(at 29.718 97.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "common:xtal_abm3b-8.000mhz-10-1-u-t"
-			(at 31.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://abracon.com/Resonators/abm3b.pdf"
-			(at 45.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRYSTAL 8.0000MHZ 10PF SMD"
-			(at 45.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Abracon LLC"
-			(at 31.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "ABM3B-8.000MHZ-10-1-U-T"
-			(at 45.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 31.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "535-9721-1-ND"
-			(at 31.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/abracon-llc/ABM3B-8-000MHZ-10-1-U-T/1873167?s=N4IgTCBcDaIIICMBOBDAxgewHYAI4CEBZAZnwFoAOAOgAY7CAJALTIEYa2yBVMgFRAC6AXyA"
-			(at 45.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "274a4aeb-f1d2-4460-b9e0-6928518c53a6")
-		)
-		(pin "4"
-			(uuid "2f696a0f-7c73-4edf-a8f4-95ae45e66fa4")
-		)
-		(pin "2"
-			(uuid "2c986713-bcea-4bd4-ad7e-75b8be6bde17")
-		)
-		(pin "1"
-			(uuid "af7108c2-b839-4a78-b40b-82223ff27378")
-		)
-		(instances
-			(project ""
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 46.99 77.47 0)
 		(unit 1)
@@ -15668,7 +15589,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 162.56 0)
+		(at 31.75 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15676,8 +15597,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaf18b16-a68c-4803-b52c-f5cf8576c305")
-		(property "Reference" "#PWR054"
-			(at 31.75 168.91 0)
+		(property "Reference" "#PWR053"
+			(at 31.75 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15686,7 +15607,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 167.64 0)
+			(at 31.75 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15695,7 +15616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 162.56 0)
+			(at 31.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15704,7 +15625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 162.56 0)
+			(at 31.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15713,7 +15634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 162.56 0)
+			(at 31.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15727,7 +15648,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR054")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -16314,7 +16235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bacbd561-03c9-423d-a54c-3f5060d9266f")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 234.95 132.08 0)
 			(effects
 				(font
@@ -16365,7 +16286,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -16719,7 +16640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c797e2c4-c4de-498f-aef2-bff267135bd3")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 260.35 127 0)
 			(effects
 				(font
@@ -16769,7 +16690,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16852,7 +16773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1da983b-eb3e-47ac-963f-25865c5b4da5")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR054"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -16903,7 +16824,7 @@
 		(instances
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR055")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -16918,7 +16839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d427cbc2-cdb7-4e28-aa9d-6c7a31981376")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 168.91 139.7 0)
 			(effects
 				(font
@@ -16968,7 +16889,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -17050,7 +16971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9b99315-25bf-4c8d-8a10-6134d5d35c11")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 240.03 124.46 0)
 			(effects
 				(font
@@ -17100,7 +17021,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -17458,7 +17379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1b914d1-e17c-4a21-a55b-8eea83853ccb")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 209.55 127 0)
 			(effects
 				(font
@@ -17508,7 +17429,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17764,7 +17685,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.1 156.21 0)
+		(at 38.1 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17772,15 +17693,6 @@
 		(dnp no)
 		(uuid "e7631d6d-e750-40ee-ae0f-eb45c1232b80")
 		(property "Reference" "C16"
-			(at 40.64 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1p5"
 			(at 40.64 157.48 0)
 			(effects
 				(font
@@ -17789,8 +17701,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "15p"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 39.0652 160.02 0)
+			(at 39.0652 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17799,7 +17720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 156.21 0)
+			(at 38.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17808,7 +17729,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 38.1 156.21 0)
+			(at 38.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18178,7 +18099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4f2363f-b7d1-4ef5-ab50-7a6f09308059")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 184.15 127 0)
 			(effects
 				(font
@@ -18228,7 +18149,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -18245,7 +18166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f587d327-e670-42a8-8c1a-453fdfbb3647")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 234.95 144.78 0)
 			(effects
 				(font
@@ -18296,7 +18217,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -18890,7 +18811,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 25.4 109.22 0)
+		(at 25.4 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18898,7 +18819,7 @@
 		(dnp no)
 		(uuid "fd0148bb-f806-482b-a3c1-d140b93b68fa")
 		(property "Reference" "C12"
-			(at 22.86 107.95 0)
+			(at 22.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18906,8 +18827,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20p"
-			(at 22.86 110.49 0)
+		(property "Value" "26p"
+			(at 22.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18916,7 +18837,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 26.3652 113.03 0)
+			(at 26.3652 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18925,7 +18846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 109.22 0)
+			(at 25.4 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18934,7 +18855,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 25.4 109.22 0)
+			(at 25.4 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
