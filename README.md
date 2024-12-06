@@ -14,10 +14,12 @@ Nerve production board for complete application integration
   <summary>Table of Contents</summary>
 
 <!-- TOC -->
+
 * [nerve_pcb](#nerve_pcb)
-  * [1 Overview](#1-overview)
-    * [1.1 Connectors](#11-connectors)
-    * [1.2 Switches & Jumpers](#12-switches--jumpers)
+    * [1 Overview](#1-overview)
+        * [1.1 Connectors](#11-connectors)
+        * [1.2 Switches & Jumpers](#12-switches--jumpers)
+
 <!-- TOC -->
 
 </details>
@@ -48,10 +50,10 @@ Connectors fixed by hardware (PCB traces or the connector itself).
 
 User controllable hardware and/or firmware driven inputs.
 
-| Switch/Jumper           | Ref | Description                                      |
-|-------------------------|:---:|--------------------------------------------------|
-| MCU NRESET Switch       | SW1 | Generic 6 mm TH button, push to reset            |
-| MCU PA0 Switch          | SW2 | Generic 6 mm TH button, designed for SYS_WKUP0   |
-| MCU Vbatt               | JP1 | Bridge to short 3.3 V supply to Vbatt            |
-| SDIO Card Detect Jumper | JP2 | Bridge for card not inserted (pull-down on open) |
-| BMP390 I2C Address      | JP3 | Bridge for `0x76` (pull-down on open, `0x77`)    |
+| Switch/Jumper           | Ref | Description                                    |
+|-------------------------|:---:|------------------------------------------------|
+| MCU NRESET Switch       | SW1 | Generic 6 mm TH button, push to reset          |
+| MCU PA0 Switch          | SW2 | Generic 6 mm TH button, designed for SYS_WKUP0 |
+| MCU Vbatt               | JP1 | Bridge to short 3.3 V supply to Vbatt          |
+| SDIO Card Detect Jumper | JP2 | Open = card inserted, closed = not inserted    |
+| BMP390 I2C Address      | JP3 | Open = `0x76`, closed = `0x77`                 |
