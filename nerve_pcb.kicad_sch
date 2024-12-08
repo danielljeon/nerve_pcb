@@ -9750,18 +9750,6 @@
 		)
 		(uuid "1066a44e-1173-44f2-9767-5f746df17886")
 	)
-	(hierarchical_label "USART1_RX"
-		(shape input)
-		(at 254 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "110eda4f-49d0-4c74-af03-a65124f7c8e6")
-	)
 	(hierarchical_label "USART2_TX"
 		(shape input)
 		(at 97.79 83.82 0)
@@ -9906,17 +9894,17 @@
 		)
 		(uuid "40f2b5db-2b32-49e4-adf5-9a8c2bbea691")
 	)
-	(hierarchical_label "USART1_TX"
+	(hierarchical_label "USART2_TX"
 		(shape input)
-		(at 254 134.62 0)
+		(at 190.5 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "433c6f75-8b70-41ea-8518-42b0c005d649")
+		(uuid "44e40d65-01fd-4c38-8f29-1b7cb54b7d32")
 	)
 	(hierarchical_label "USART1_CTS"
 		(shape input)
@@ -10134,6 +10122,30 @@
 		)
 		(uuid "763eb17c-ff22-4c78-b1ee-d3f20e664d1e")
 	)
+	(hierarchical_label "USART2_RX"
+		(shape input)
+		(at 190.5 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7da26caf-a33c-4458-b817-c326568cd56e")
+	)
+	(hierarchical_label "USART1_RX"
+		(shape input)
+		(at 254 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84f40570-ef86-4e35-ad76-56a3ec7f252f")
+	)
 	(hierarchical_label "NRST"
 		(shape input)
 		(at 36.83 25.4 0)
@@ -10253,18 +10265,6 @@
 			(justify left)
 		)
 		(uuid "8dfd6c8a-0e86-45af-b0c8-7e3832d4a1f6")
-	)
-	(hierarchical_label "USART2_TX"
-		(shape input)
-		(at 190.5 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "924badd6-4b6d-4f5e-9e35-f3cc1bca2718")
 	)
 	(hierarchical_label "USART3_RX"
 		(shape input)
@@ -10446,18 +10446,6 @@
 		)
 		(uuid "b63ab7b7-18d6-4548-82ce-9870ea6f4a08")
 	)
-	(hierarchical_label "USART2_RX"
-		(shape input)
-		(at 190.5 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9bb12e0-6383-4c4d-a502-000f6195dd0b")
-	)
 	(hierarchical_label "SDIO_CMD"
 		(shape input)
 		(at 59.69 96.52 180)
@@ -10469,6 +10457,18 @@
 			(justify right)
 		)
 		(uuid "be4f27c2-c85e-4ee9-8e15-22ef5d919cb9")
+	)
+	(hierarchical_label "USART1_TX"
+		(shape input)
+		(at 254 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf9b4efd-1b70-42ee-aef2-96036e0ae6ce")
 	)
 	(hierarchical_label "I2C1_SDA"
 		(shape input)
