@@ -8383,7 +8383,7 @@
 				)
 			)
 		)
-		(property "Value" "26p"
+		(property "Value" "30p"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "baeb742c-b513-45b3-af67-9e4c40bec06e")
@@ -9171,7 +9171,7 @@
 				)
 			)
 		)
-		(property "Value" "26p"
+		(property "Value" "30p"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "a32dd09c-aa60-41af-81eb-2de757e99b5d")
@@ -15564,7 +15564,7 @@
 			)
 		)
 		(property "Value" "Open"
-			(at 0 -1.9 360)
+			(at 0 -1.9 0)
 			(layer "B.Fab")
 			(uuid "1706fa9a-7bf1-4f17-91c1-533fa2361a18")
 			(effects

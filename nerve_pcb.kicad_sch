@@ -12391,7 +12391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "26p"
+		(property "Value" "30p"
 			(at 40.64 109.22 0)
 			(effects
 				(font
@@ -18827,7 +18827,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "26p"
+		(property "Value" "30p"
 			(at 22.86 109.22 0)
 			(effects
 				(font
