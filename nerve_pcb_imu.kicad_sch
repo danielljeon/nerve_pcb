@@ -2340,7 +2340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "18p"
 			(at 231.14 115.57 0)
 			(effects
 				(font
@@ -3189,7 +3189,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "18p"
 			(at 213.36 115.57 0)
 			(effects
 				(font

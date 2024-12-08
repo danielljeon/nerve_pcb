@@ -5445,7 +5445,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "18p"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "1e7db827-7558-477a-ba05-582d0e41138a")
@@ -5873,7 +5873,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "18p"
 			(at -2.02 -0.075 0)
 			(layer "F.Fab")
 			(uuid "5272f1fd-674c-4276-a4aa-93c9fa1339f0")
@@ -14697,7 +14697,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "18p"
 			(at 2.23 0 0)
 			(layer "B.Fab")
 			(uuid "b988d6ea-dfd7-4de5-afff-134d33facb60")
@@ -18730,7 +18730,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "18p"
 			(at 2.27 0 0)
 			(layer "B.Fab")
 			(uuid "3d780601-5e09-4239-b3ff-b14cc9727b05")
