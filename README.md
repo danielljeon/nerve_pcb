@@ -14,6 +14,8 @@ based [nerve](https://github.com/danielljeon/nerve) controller firmware.
   * [2 Board Specifications](#2-board-specifications)
     * [2.1 Connectors](#21-connectors)
     * [2.2 Switches & Jumpers](#22-switches--jumpers)
+  * [3 Release Notes](#3-release-notes)
+    * [3.1 v0.1.0-alpha](#31-v010-alpha)
   * [💖 Sponsors](#-sponsors)
     * [PCBWay](#pcbway)
       * [Why PCBWay?](#why-pcbway)
@@ -72,6 +74,20 @@ User controllable hardware and/or firmware driven inputs.
 | MCU Vbatt               | JP1 | Bridge to short 3.3 V supply to Vbatt          |
 | SDIO Card Detect Jumper | JP2 | Open = card inserted, closed = not inserted    |
 | BMP390 I2C Address      | JP3 | Open = `0x76`, closed = `0x77`                 |
+
+---
+
+## 3 Release Notes
+
+### 3.1 v0.1.0-alpha
+
+- Pre-release 4-layer development board variant.
+- `nerve_pcb_dev`, commit 76bec6f.
+    - Original commit on a different repo for automated workflow reasons.
+    - Closest commit on this repo
+      is [f2d1f21](https://github.com/danielljeon/nerve_pcb/commit/f2d1f21cb11d7a693d17076e7c4d2955f681dbfa).
+- Order date: 2024/11/15.
+- Order number: `W837000ASB3`.
 
 ---
 
