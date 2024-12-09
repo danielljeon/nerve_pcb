@@ -2,7 +2,8 @@
 
 ![kibot](https://github.com/danielljeon/nerve_pcb/actions/workflows/kibot.yaml/badge.svg)
 
-Nerve production oriented board for complete application integration.
+Production optimized PCB for the STM32
+based [nerve](https://github.com/danielljeon/nerve) controller firmware.
 
 <details markdown="1">
   <summary>Table of Contents</summary>
@@ -10,8 +11,9 @@ Nerve production oriented board for complete application integration.
 <!-- TOC -->
 * [nerve_pcb](#nerve_pcb)
   * [1 Overview](#1-overview)
-    * [1.1 Connectors](#11-connectors)
-    * [1.2 Switches & Jumpers](#12-switches--jumpers)
+  * [2 Board Specifications](#2-board-specifications)
+    * [2.1 Connectors](#21-connectors)
+    * [2.2 Switches & Jumpers](#22-switches--jumpers)
   * [💖 Sponsors](#-sponsors)
     * [PCBWay](#pcbway)
       * [Why PCBWay?](#why-pcbway)
@@ -22,7 +24,7 @@ Nerve production oriented board for complete application integration.
 ---
 
 <a href="https://www.pcbway.com">
-  <img src="docs/PCBWay.svg" alt="Description" style="width:50%;" />
+  <img src="docs/PCBWay.svg" alt="Description" style="width:25%;" />
 </a>
 
 This project is sponsored by [**PCBWay**](https://www.pcbway.com). You
@@ -37,10 +39,14 @@ can learn more about their valuable support here: [PCBWay](#pcbway).
 |          ![nerve_pcb-top.png](docs/nerve_pcb-top.png)           |          ![nerve_pcb-bottom.png](docs/nerve_pcb-bottom.png)           |
 | ![4layer_variant_top.png](docs/pictures/4layer_variant_top.png) | ![4layer_variant_bottom.png](docs/pictures/4layer_variant_bottom.png) |
 
-Production optimized PCB for the STM32
-based [nerve](https://github.com/danielljeon/nerve) controller firmware.
+- Bottom row pictures show 4 Layer assembly variant of `nerve_pcb`,
+  v0.1.0-alpha.
 
-### 1.1 Connectors
+---
+
+## 2 Board Specifications
+
+### 2.1 Connectors
 
 Connectors fixed by hardware (PCB traces or the connector itself).
 
@@ -55,7 +61,7 @@ Connectors fixed by hardware (PCB traces or the connector itself).
 | CAN1 (Transceiver U7)           | J7  | Pin 1: CAN1 High, Pin 2: CAN1 Low                                              |
 | CAN2 (Transceiver U8)           | J8  | Pin 1: CAN2 High, Pin 2: CAN2 Low                                              |
 
-### 1.2 Switches & Jumpers
+### 2.2 Switches & Jumpers
 
 User controllable hardware and/or firmware driven inputs.
 
