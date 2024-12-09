@@ -2,31 +2,39 @@
 
 ![kibot](https://github.com/danielljeon/nerve_pcb/actions/workflows/kibot.yaml/badge.svg)
 
-Nerve production board for complete application integration
-
-| Top                                          | Bottom                                             |
-|----------------------------------------------|----------------------------------------------------|
-| ![nerve_pcb-top.png](docs/nerve_pcb-top.png) | ![nerve_pcb-bottom.png](docs/nerve_pcb-bottom.png) |
-
----
+Nerve production oriented board for complete application integration.
 
 <details markdown="1">
   <summary>Table of Contents</summary>
 
 <!-- TOC -->
-
 * [nerve_pcb](#nerve_pcb)
-    * [1 Overview](#1-overview)
-        * [1.1 Connectors](#11-connectors)
-        * [1.2 Switches & Jumpers](#12-switches--jumpers)
-
+  * [1 Overview](#1-overview)
+    * [1.1 Connectors](#11-connectors)
+    * [1.2 Switches & Jumpers](#12-switches--jumpers)
+  * [💖 Sponsors](#-sponsors)
+    * [PCBWay](#pcbway)
+      * [Why PCBWay?](#why-pcbway)
 <!-- TOC -->
 
 </details>
 
 ---
 
+<a href="https://www.pcbway.com">
+  <img src="docs/PCBWay.svg" alt="Description" style="width:50%;" />
+</a>
+
+This project is sponsored by [**PCBWay**](https://www.pcbway.com). You
+can learn more about their valuable support here: [PCBWay](#pcbway).
+
+---
+
 ## 1 Overview
+
+| Top                                                             | Bottom                                                                |
+|-----------------------------------------------------------------|-----------------------------------------------------------------------|
+| ![nerve_pcb-top.png](docs/nerve_pcb-top.png)                    | ![nerve_pcb-bottom.png](docs/nerve_pcb-bottom.png)                    |
 
 Production optimized PCB for the STM32
 based [nerve](https://github.com/danielljeon/nerve) controller firmware.
@@ -57,3 +65,42 @@ User controllable hardware and/or firmware driven inputs.
 | MCU Vbatt               | JP1 | Bridge to short 3.3 V supply to Vbatt          |
 | SDIO Card Detect Jumper | JP2 | Open = card inserted, closed = not inserted    |
 | BMP390 I2C Address      | JP3 | Open = `0x76`, closed = `0x77`                 |
+
+---
+
+## 💖 Sponsors
+
+### PCBWay
+
+<a href="https://www.pcbway.com">
+  <img src="docs/PCBWay.svg" alt="Description" style="width:25%;" />
+</a>
+
+This project is sponsored by [**PCBWay**](https://www.pcbway.com), whose PCB
+manufacturing services are essential in producing high-quality prototypes for
+its development. Their support ensures reliable boards that meet the project's
+demands.
+
+#### Why PCBWay?
+
+PCBWay stands out for their exceptional services and commitment to the
+community:
+
+- **PCB Manufacturing**: High-quality fabrication with options for multilayer,
+  rigid-flex, and advanced designs.
+- **PCB Assembly**: Comprehensive solutions, including soldering, component
+  sourcing, and assembly.
+- **CNC Machining & 3D Printing**: Additional prototyping options to support
+  complete product development.
+- **Fast Turnaround**: Reliable and quick production times to keep projects on
+  schedule.
+- **Support for Open Source & Education**: PCBWay actively sponsors projects and
+  provides educational resources like tutorials, videos, and documentation,
+  empowering developers and hobbyists.
+    - This commitment to education and open-source advocacy was a key factor in
+      choosing them as a partner 🙂.
+
+Their dedication to professional-grade services and fostering innovation makes
+PCBWay an invaluable partner in bringing this project to life.
+
+Learn more here: [Why PCBWay?](https://www.pcbway.com/why.html)
