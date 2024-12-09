@@ -32,9 +32,10 @@ can learn more about their valuable support here: [PCBWay](#pcbway).
 
 ## 1 Overview
 
-| Top                                                             | Bottom                                                                |
-|-----------------------------------------------------------------|-----------------------------------------------------------------------|
-| ![nerve_pcb-top.png](docs/nerve_pcb-top.png)                    | ![nerve_pcb-bottom.png](docs/nerve_pcb-bottom.png)                    |
+|                               Top                               |                                Bottom                                 |
+|:---------------------------------------------------------------:|:---------------------------------------------------------------------:|
+|          ![nerve_pcb-top.png](docs/nerve_pcb-top.png)           |          ![nerve_pcb-bottom.png](docs/nerve_pcb-bottom.png)           |
+| ![4layer_variant_top.png](docs/pictures/4layer_variant_top.png) | ![4layer_variant_bottom.png](docs/pictures/4layer_variant_bottom.png) |
 
 Production optimized PCB for the STM32
 based [nerve](https://github.com/danielljeon/nerve) controller firmware.
