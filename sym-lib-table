@@ -9,4 +9,5 @@
   (lib (name "bosch")(type "KiCad")(uri "${KIPRJMOD}/component_library/bosch.kicad_sym")(options "")(descr ""))
   (lib (name "ceva")(type "KiCad")(uri "${KIPRJMOD}/component_library/ceva.kicad_sym")(options "")(descr ""))
   (lib (name "nxp")(type "KiCad")(uri "${KIPRJMOD}/component_library/nxp.kicad_sym")(options "")(descr ""))
+  (lib (name "connectors")(type "KiCad")(uri "${KIPRJMOD}/component_library/connectors.kicad_sym")(options "")(descr ""))
 )
