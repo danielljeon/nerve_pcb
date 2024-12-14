@@ -2169,6 +2169,18 @@
 		)
 		(uuid "fdf013fa-dd88-4e94-93bd-622fafa464dd")
 	)
+	(text "Designed default: External crystal\n    Jumper open -> CLKSEL0 to GND/NC + CLKSEL1 to crystal: Clock = Crystal\n    Jumper closed -> CLKSEL0 to 3V3 + CLKSEL1 to external: Clock = External\n    Jumper closed -> CLKSEL0 to 3V3 + CLKSEL1 to GND/NC: Clock = Internal"
+		(exclude_from_sim no)
+		(at 182.88 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "da18f8af-e938-4e8a-9432-3964b99d880f")
+	)
 	(hierarchical_label "IMU_CS"
 		(shape input)
 		(at 106.68 107.95 180)

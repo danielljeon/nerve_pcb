@@ -1375,7 +1375,7 @@
 		)
 		(uuid "f9a9ef27-a6a4-49b0-81eb-04e77c792c72")
 	)
-	(text "Default using 0x76\nSDO to GND: I2C address = 0x76\nSDO to V_{DDIO}: I2C address = 0x77"
+	(text "Designed default: I2C address 0x76\n    Jumper open -> SDO to GND: I2C address = 0x76\n    Jumper closed -> SDO to V_{DDIO}: I2C address = 0x77"
 		(exclude_from_sim no)
 		(at 185.166 97.79 0)
 		(effects
@@ -1386,15 +1386,15 @@
 		)
 		(uuid "3bc37457-a375-4711-b2ec-c7ec286a69c2")
 	)
-	(text "Using I2C\nCSB to V_{DDIO}: mode = I2C\nCSB to GND: mode = SPI"
+	(text "Designed: I2C\n    CSB to V_{DDIO}: mode = I2C\n    CSB to GND: mode = SPI"
 		(exclude_from_sim no)
-		(at 127 84.582 0)
+		(at 99.06 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8b8d5b57-2ea9-4478-8e83-e9fbb15aa712")
 	)
