@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Nerve PCB")
-		(rev "0.1.0-alpha")
+		(rev "0.1.0-beta")
 		(company "Daniel Jeon")
 	)
 	(lib_symbols
