@@ -10313,7 +10313,7 @@
 		)
 		(uuid "0d47952f-eab0-4290-86b6-c1861d964a00")
 	)
-	(text "Add-on board\ninterlock on pins:\n8, 9"
+	(text "Add-on board\ninterlock on pins:\n15, 16"
 		(exclude_from_sim no)
 		(at 187.96 143.256 0)
 		(effects
@@ -10336,7 +10336,7 @@
 		)
 		(uuid "2c03285c-76c2-4dda-baa0-abcb8187bf15")
 	)
-	(text "Add-on board\ninterlock on pins:\n15, 16"
+	(text "Add-on board\ninterlock on pins:\n19, 20"
 		(exclude_from_sim no)
 		(at 238.76 148.336 0)
 		(effects
@@ -10347,7 +10347,7 @@
 		)
 		(uuid "2f444680-aab5-4a02-9749-38e4249c36f7")
 	)
-	(text "Manual card \ndetect jumper."
+	(text "Manual card \ndetect jumper"
 		(exclude_from_sim no)
 		(at 263.652 78.994 0)
 		(effects
@@ -10432,7 +10432,7 @@
 		)
 		(uuid "96bab2e6-53e2-42db-a690-92c02f13b1ad")
 	)
-	(text "4u7 bulk capacitor."
+	(text "4u7 bulk capacitor"
 		(exclude_from_sim no)
 		(at 130.048 44.704 0)
 		(effects
@@ -10480,13 +10480,14 @@
 		)
 		(uuid "de83db1f-6d80-477a-ae06-c970fc0ae3f4")
 	)
-	(text "TODO: Evaluating use of the \nSTM32's internal pull-ups."
+	(text "Using external pull-ups"
 		(exclude_from_sim no)
-		(at 206.756 73.152 0)
+		(at 208.026 74.168 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1588)
+				(thickness 0.254)
+				(bold yes)
 				(italic yes)
 			)
 			(justify left)
