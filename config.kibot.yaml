@@ -187,15 +187,15 @@ outputs:
     dir: PCB
     options:
       force_edge_cuts: true
-      keep_temporal_files: true
+      keep_temporal_files: false
       title: "+ (%V variant)"  # Append the variant to the title.
       scaling: 1.0
       pages:
         - layers: [ User.Drawings, User.Comments ]
           sheet: "User drawings and comments"
-        - layers: [ F.Paste, F.Fab ]
+        - layers: [ F.Paste, F.Fab, User.Drawings, User.Comments ]
           sheet: "Fabrication top layers"
-        - layers: [ B.Paste, B.Fab ]
+        - layers: [ B.Paste, B.Fab, User.Drawings, User.Comments ]
           sheet: "Fabrication bottom layers"
         - layers:
             - layer: F.Cu
