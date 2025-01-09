@@ -10657,6 +10657,18 @@
 		)
 		(uuid "1f691368-f5a0-4868-815c-1012aa662486")
 	)
+	(hierarchical_label "GPIO_RADIO_RST"
+		(shape input)
+		(at 97.79 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23636767-53bf-4a5e-af3a-198f4ffc65f8")
+	)
 	(hierarchical_label "SDIO_D1"
 		(shape input)
 		(at 193.04 101.6 180)
@@ -10873,6 +10885,18 @@
 		)
 		(uuid "531c49ee-58fa-4f38-a8cb-e3f1dc5da222")
 	)
+	(hierarchical_label "USART1_RX"
+		(shape input)
+		(at 266.7 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53239f10-a212-4557-a4bc-4b6a188d3a7b")
+	)
 	(hierarchical_label "NRST"
 		(shape input)
 		(at 52.07 76.2 0)
@@ -11040,18 +11064,6 @@
 			(justify right)
 		)
 		(uuid "820f2034-8f8c-4d34-8828-cc69929491b8")
-	)
-	(hierarchical_label "USART1_RX"
-		(shape input)
-		(at 266.7 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "84f40570-ef86-4e35-ad76-56a3ec7f252f")
 	)
 	(hierarchical_label "NRST"
 		(shape input)
@@ -11293,30 +11305,6 @@
 		)
 		(uuid "aa2af36c-ab9a-44ab-bd21-7168e28b756e")
 	)
-	(hierarchical_label "GPIO_IMU_P0"
-		(shape input)
-		(at 97.79 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "abdb46d2-ead2-4ca2-a773-2b7d72b3dc8e")
-	)
-	(hierarchical_label "GPIO_RADIO_RST"
-		(shape input)
-		(at 59.69 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af994993-5a9b-4f02-bae7-89d4c3966527")
-	)
 	(hierarchical_label "USART3_RX"
 		(shape input)
 		(at 59.69 116.84 180)
@@ -11364,18 +11352,6 @@
 			(justify right)
 		)
 		(uuid "be4f27c2-c85e-4ee9-8e15-22ef5d919cb9")
-	)
-	(hierarchical_label "USART1_TX"
-		(shape input)
-		(at 266.7 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf9b4efd-1b70-42ee-aef2-96036e0ae6ce")
 	)
 	(hierarchical_label "I2C1_SDA"
 		(shape input)
@@ -11568,6 +11544,30 @@
 			(justify right)
 		)
 		(uuid "ec6e1091-b8c8-4ab5-8c53-cdb020944994")
+	)
+	(hierarchical_label "GPIO_IMU_P0"
+		(shape input)
+		(at 59.69 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed3f02db-4331-453a-b8bf-22b79113e25c")
+	)
+	(hierarchical_label "USART1_TX"
+		(shape input)
+		(at 266.7 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee1a1ffc-dc34-4619-a543-972d80ecf5c6")
 	)
 	(hierarchical_label "USART3_TX"
 		(shape input)
