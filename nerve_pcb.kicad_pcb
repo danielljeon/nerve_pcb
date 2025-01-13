@@ -3509,7 +3509,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at -2.275 0 0)
+			(at -2.25 0 0)
 			(layer "F.SilkS")
 			(uuid "8d4cc3ca-3e9f-4e0c-9419-edb368230f17")
 			(effects
@@ -5433,7 +5433,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP4"
-			(at 0 1.75 180)
+			(at 0 2 180)
 			(layer "F.SilkS")
 			(uuid "d279dd66-f192-4bc6-b01b-20a1843b5ae5")
 			(effects
@@ -9215,7 +9215,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "00c3baa8-0a40-4999-a8b0-9216b2ce0016")
@@ -9227,7 +9227,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 2.575 0 360)
+			(at 2.575 0 0)
 			(layer "F.Fab")
 			(uuid "0273cfc1-a82c-4c84-87ae-ca9567e74623")
 			(effects
@@ -9382,7 +9382,7 @@
 			(uuid "71fe20e6-d764-4c21-945a-92d3e2f26774")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4dee625b-a4a3-43a9-b229-46edd644b8ac")
 			(effects
@@ -10271,7 +10271,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10832,7 +10832,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8a9b10cd-1f3c-401a-990b-f9fde5eceb25")
@@ -10844,7 +10844,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "97da994a-dafc-4116-a03d-407f207d84a1")
 			(effects
@@ -10999,7 +10999,7 @@
 			(uuid "b8b7ede2-d6ba-4b87-a633-f6602a26c1be")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bfda760e-39e8-4b2a-a71d-4cc0355710c2")
 			(effects
@@ -11848,14 +11848,14 @@
 		(uuid "9a3726b4-78c6-46eb-a1cb-1be4c92a0396")
 		(at 135.505 93.27 -90)
 		(property "Reference" "J3"
-			(at -0.02 -2.5 -90)
+			(at -0.02 -2.745 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "896a2ec0-da28-4944-9c2a-02238adb4cce")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15154,7 +15154,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP3"
-			(at 2.25 0 90)
+			(at 0.25 2 180)
 			(layer "B.SilkS")
 			(uuid "1833deab-7561-49d0-b699-113a2339dfa7")
 			(effects
@@ -15166,7 +15166,7 @@
 			)
 		)
 		(property "Value" "Open"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "901767d3-b8bf-4b97-b004-1baf68b818bf")
 			(effects
@@ -15366,7 +15366,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -21611,7 +21611,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 126 109.25 -90)
+		(at 126 109.25 90)
 		(layer "B.SilkS")
 		(uuid "5e050d13-e616-4725-b2fc-b66a98d60f69")
 		(effects
@@ -21647,7 +21647,7 @@
 		)
 	)
 	(gr_text "WAKE"
-		(at 130.5 109.25 -90)
+		(at 130.5 109.25 90)
 		(layer "B.SilkS")
 		(uuid "81996035-6b4c-43dd-ab23-c3974eb90d6e")
 		(effects
@@ -21680,6 +21680,19 @@
 				(thickness 0.1875)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "Daniel Jeon\nnerve_pcb\nv0.1.0-beta"
+		(at 148.5 128.75 0)
+		(layer "B.SilkS")
+		(uuid "d86b8b70-e3be-4612-bff2-8be5690fac95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "GND"
