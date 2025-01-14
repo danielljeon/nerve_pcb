@@ -16,6 +16,7 @@ based [nerve](https://github.com/danielljeon/nerve) controller firmware.
     * [2.2 Switches & Jumpers](#22-switches--jumpers)
   * [3 Release Notes](#3-release-notes)
     * [3.1 v0.1.0-alpha](#31-v010-alpha)
+    * [3.2 v0.1.0-beta](#32-v010-beta)
   * [💖 Sponsors](#-sponsors)
     * [PCBWay](#pcbway)
       * [Why PCBWay?](#why-pcbway)
@@ -55,13 +56,14 @@ Connectors fixed by hardware (PCB traces or the connector itself).
 | Connector                       | Ref | Description                                                                    |
 |---------------------------------|:---:|--------------------------------------------------------------------------------|
 | Tag-Connect TC2050              | J1  | Programming/debug connector                                                    |
-| USB-C 5 V Power                 | J2  | Power only USB-C, primary 5 V source                                           |
-| BOOT0 Jumper                    | J3  | Open for run flash memory (pull-down on open)                                  |
-| Hinge microSD Card              | J4  | Portable storage, see [Molex product video](https://youtu.be/YY2V8z6UK7M?t=95) |
+| USB-C 5 V power                 | J2  | Power only USB-C, primary 5 V source                                           |
+| BOOT0 jumper                    | J3  | Open for run flash memory (pull-down on open)                                  |
+| Hinge microSD card              | J4  | Portable storage, see [Molex product video](https://youtu.be/YY2V8z6UK7M?t=95) |
 | Top side 2x8 board-to-board     | J5  | See schematic/layout for details                                               |
-| Bottom side 2x15 board-to-board | J6  | See schematic/layout for details                                               |
-| CAN1 (Transceiver U7)           | J7  | Pin 1: CAN1 High, Pin 2: CAN1 Low                                              |
-| CAN2 (Transceiver U8)           | J8  | Pin 1: CAN2 High, Pin 2: CAN2 Low                                              |
+| Bottom side 2x10 board-to-board | J6  | See schematic/layout for details                                               |
+| UART3                           | J7  | Pin 1: UART3 RX, Pin 2: UART3 TX                                               |
+| CAN1 (Transceiver U7)           | J8  | Pin 1: CAN1 High, Pin 2: CAN1 Low                                              |
+| CAN2 (Transceiver U8)           | J9  | Pin 1: CAN2 High, Pin 2: CAN2 Low                                              |
 
 ### 2.2 Switches & Jumpers
 
@@ -69,11 +71,12 @@ User controllable hardware and/or firmware driven inputs.
 
 | Switch/Jumper           | Ref | Description                                    |
 |-------------------------|:---:|------------------------------------------------|
-| MCU NRESET Switch       | SW1 | Generic 6 mm TH button, push to reset          |
-| MCU PA0 Switch          | SW2 | Generic 6 mm TH button, designed for SYS_WKUP0 |
-| MCU Vbatt               | JP1 | Bridge to short 3.3 V supply to Vbatt          |
-| SDIO Card Detect Jumper | JP2 | Open = card inserted, closed = not inserted    |
-| BMP390 I2C Address      | JP3 | Open = `0x76`, closed = `0x77`                 |
+| MCU NRESET switch       | SW1 | Generic 6 mm TH button, push to reset          |
+| MCU PA0 switch          | SW2 | Generic 6 mm TH button, designed for SYS_WKUP0 |
+| MCU 3.3VBATT            | JP1 | Bridge to short 3.3 V supply to MCU VBAT       |
+| SDIO card detect jumper | JP2 | Open = card detected, closed = not detected    |
+| BNO085 clock select     | JP3 | Open = crystal, closed = external/internal     |
+| BMP390 I2C address      | JP4 | Open = `0x76`, closed = `0x77`                 |
 
 ---
 
@@ -88,6 +91,12 @@ User controllable hardware and/or firmware driven inputs.
       is [f2d1f21](https://github.com/danielljeon/nerve_pcb/commit/f2d1f21cb11d7a693d17076e7c4d2955f681dbfa).
 - Order date: 2024/11/15.
 - Order number: `W837000ASB3`.
+
+### 3.2 v0.1.0-beta
+
+- Pre-release 6-layer board variant.
+    - Short-term pre-release board bring-up/testing release.
+- Order date: 2025/01/13.
 
 ---
 
