@@ -29,7 +29,7 @@ based [nerve](https://github.com/danielljeon/nerve) controller firmware.
 ---
 
 <a href="https://www.pcbway.com">
-  <img src="docs/PCBWay.svg" alt="Description" style="width:25%;" />
+  <img src="docs/PCBWay.svg" alt="PCBWay Logo" style="width:25%;" />
 </a>
 
 This project is sponsored by **PCBWay**. You can learn more about their valuable
@@ -107,7 +107,7 @@ User controllable hardware and/or firmware driven inputs.
 ### PCBWay
 
 <a href="https://www.pcbway.com">
-  <img src="docs/PCBWay.svg" alt="Description" style="width:25%;" />
+  <img src="docs/PCBWay.svg" alt="PCBWay Logo" style="width:25%;" />
 </a>
 
 This project is sponsored by [**PCBWay**](https://www.pcbway.com), whose PCB
