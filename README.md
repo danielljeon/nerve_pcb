@@ -5,6 +5,8 @@
 Production optimized PCB for the STM32
 based [nerve](https://github.com/danielljeon/nerve) controller firmware.
 
+---
+
 <details markdown="1">
   <summary>Table of Contents</summary>
 
