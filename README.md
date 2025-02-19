@@ -32,8 +32,8 @@ based [nerve](https://github.com/danielljeon/nerve) controller firmware.
   <img src="docs/PCBWay.svg" alt="Description" style="width:25%;" />
 </a>
 
-This project is sponsored by [**PCBWay**](https://www.pcbway.com). You
-can learn more about their valuable support here: [PCBWay](#pcbway).
+This project is sponsored by **PCBWay**. You can learn more about their valuable
+support here: [💖 Sponsors/PCBWay](#pcbway).
 
 ---
 
