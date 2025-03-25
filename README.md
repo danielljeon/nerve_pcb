@@ -19,6 +19,7 @@ based [nerve](https://github.com/danielljeon/nerve) controller firmware.
   * [3 Release Notes](#3-release-notes)
     * [3.1 v0.1.0-alpha](#31-v010-alpha)
     * [3.2 v0.1.0-beta](#32-v010-beta)
+    * [3.3 v0.1.0 (WIP)](#33-v010-wip)
   * [💖 Sponsors](#-sponsors)
     * [PCBWay](#pcbway)
       * [Why PCBWay?](#why-pcbway)
@@ -99,6 +100,12 @@ User controllable hardware and/or firmware driven inputs.
 - Pre-release 6-layer board variant.
     - Short-term pre-release board bring-up/testing release.
 - Order date: 2025/01/13.
+
+### 3.3 v0.1.0 (WIP)
+
+- Minor changes from the previous `v0.1.0-beta` pre-release version.
+    - CAN termination design switched from single 120 ohm termination to split
+      60 ohm termination with 4.7 nF capacitor.
 
 ---
 
