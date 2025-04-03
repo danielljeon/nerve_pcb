@@ -3,7 +3,7 @@
 #
 # KiBot custom preflight checks and output release files workflow.
 #
-# Built for KiBot running KiCad 8.
+# Built for KiBot running KiCad 9.
 ################################################################################
 
 name: KiBot Release
@@ -45,7 +45,7 @@ jobs:
           key: cache_3d
 
       - name: Run ERC
-        uses: INTI-CMNB/KiBot@v2_k8
+        uses: INTI-CMNB/KiBot@v2_k9
         with:
           config: config.kibot.yaml  # Required - kibot config file.
           # schema: kicad_project_name.kicad_sch  # Optional - schematic file.
@@ -74,7 +74,7 @@ jobs:
           submodules: true
 
       - name: Run DRC
-        uses: INTI-CMNB/KiBot@v2_k8
+        uses: INTI-CMNB/KiBot@v2_k9
         with:
           config: config.kibot.yaml  # Required - kibot config file.
           # schema: kicad_project_name.kicad_sch  # Optional - schematic file.
@@ -112,7 +112,7 @@ jobs:
         with:
           submodules: true
 
-      - uses: INTI-CMNB/KiBot@v2_k8
+      - uses: INTI-CMNB/KiBot@v2_k9
         with:
           config: config.kibot.yaml  # Required - kibot config file.
           # schema: kicad_project_name.kicad_sch  # Optional - schematic file.
