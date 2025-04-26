@@ -6103,7 +6103,7 @@
 		(descr "LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "LQFP QFP")
 		(property "Reference" "U2"
-			(at 0 0 0)
+			(at -2.75 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "0ed68aa4-f32d-4d46-bf75-e9a85dbb8970")
 			(effects
