@@ -265,6 +265,6 @@ outputs:
   # CAD related model files:
   - name: step_model
     comment: "STEP 3D model"
-    type: step
+    type: export_3d
     dir: CAD
   ##############################################################################
