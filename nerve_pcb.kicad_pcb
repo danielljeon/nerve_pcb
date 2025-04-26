@@ -6161,7 +6161,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "STM32F446RE"
+		(property "Manufacturer Part Number" "STM32F446RET6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10106,7 +10106,7 @@
 		(uuid "8d0419f6-f30b-4a62-9ef6-bfae840181d9")
 		(at 169.25 113 -90)
 		(property "Reference" "J5"
-			(at 8.5 -2 0)
+			(at -8.75 -2 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "08724ce0-70a8-4d62-bbe7-95f075b7cff5")
@@ -14787,7 +14787,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dd31be74-721d-41c6-a83f-e78841a8093c")
+			(uuid "394d3577-f8bd-49b4-80c8-2856633e6b1c")
 			(effects
 				(font
 					(size 1 1)
@@ -14801,7 +14801,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7662f16b-b09b-440c-b97d-8f8dca27e7ef")
+			(uuid "f8a4201e-d267-42e5-ae6a-200e2bad23f6")
 			(effects
 				(font
 					(size 1 1)
@@ -14815,7 +14815,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "10c8d733-49e8-4f61-8538-ccb1fd4c8b30")
+			(uuid "c7182825-693d-461f-b047-83f5d77833c8")
 			(effects
 				(font
 					(size 1 1)
@@ -14837,7 +14837,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "e7a1fab5-7830-460b-b438-c34254ca0721")
+			(uuid "af2aa834-3bd4-4144-9ffd-5094fa71ba43")
 		)
 		(fp_circle
 			(center -8 0)
@@ -14848,7 +14848,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "cc9af66b-4223-4f23-91c1-0fd3e967f026")
+			(uuid "fc1cea53-dcbb-455f-9161-cd08e5749544")
 		)
 		(fp_poly
 			(pts
@@ -14860,7 +14860,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "83b5aca1-fca7-490c-90db-f09359f5c790")
+			(uuid "797c75c5-54aa-4c96-87c9-2e92a6a1617b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -17603,7 +17603,7 @@
 			(roundrect_rratio 0.25)
 			(net 69 "Net-(U4-XOUT32{slash}CLKSEL1)")
 			(pinfunction "XOUT32/CLKSEL1")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "42ff8285-b450-449b-b6d2-12efe2f58cc8")
 		)
 		(pad "27" smd roundrect
@@ -17613,7 +17613,7 @@
 			(roundrect_rratio 0.25)
 			(net 9 "Net-(U4-XIN32)")
 			(pinfunction "XIN32")
-			(pintype "input")
+			(pintype "passive")
 			(uuid "49523a1b-cc5a-4765-9aae-790377233788")
 		)
 		(pad "28" smd roundrect

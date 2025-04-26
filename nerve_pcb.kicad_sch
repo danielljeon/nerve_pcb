@@ -1848,7 +1848,7 @@
 				)
 			)
 			(property "Footprint" "common:harwin_2p_2-54_jumper_open"
-				(at 3.81 -6.35 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1857,7 +1857,7 @@
 				)
 			)
 			(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-999.pdf"
-				(at 35.56 -7.493 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1866,7 +1866,7 @@
 				)
 			)
 			(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
-				(at 35.56 -7.493 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1875,7 +1875,7 @@
 				)
 			)
 			(property "Manufacturer" "Harwin"
-				(at 35.56 1.397 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1884,7 +1884,7 @@
 				)
 			)
 			(property "Manufacturer Part Number" "M20-9990246"
-				(at 35.56 1.397 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1893,7 +1893,7 @@
 				)
 			)
 			(property "Distributor" "DigiKey"
-				(at 35.56 1.397 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1902,7 +1902,7 @@
 				)
 			)
 			(property "Distributor Part Number" "952-2262-ND"
-				(at 35.56 -7.493 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1911,7 +1911,7 @@
 				)
 			)
 			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9990246/3728226"
-				(at 35.56 -7.493 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2040,7 +2040,7 @@
 				)
 			)
 			(property "Footprint" "common:to-252-2_dpak-2-leg"
-				(at 0 5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2049,7 +2049,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld39150.pdf"
-				(at 2.54 -6.35 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5097,8 +5097,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "stm32f446ret"
-				(at 10.16 44.45 0)
+			(property "Value" "STM32F446RET6"
+				(at 9.144 44.45 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5142,7 +5142,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "STM32F446RE"
+			(property "Manufacturer Part Number" "STM32F446RET6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -17477,7 +17477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "STM32F446RE"
+		(property "Manufacturer Part Number" "STM32F446RET6"
 			(at 78.74 121.92 0)
 			(effects
 				(font
