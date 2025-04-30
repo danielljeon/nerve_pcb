@@ -42,7 +42,7 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 
 |                               Top                               |                                Bottom                                 |
 |:---------------------------------------------------------------:|:---------------------------------------------------------------------:|
-|          ![nerve_pcb-top.png](docs/nerve_pcb-top.png)           |          ![nerve_pcb-bottom.png](docs/nerve_pcb-bottom.png)           |
+|          ![nerve_top.png](docs/nerve_top.png)           |          ![nerve_bottom.png](docs/nerve_bottom.png)           |
 | ![4layer_variant_top.png](docs/pictures/4layer_variant_top.png) | ![4layer_variant_bottom.png](docs/pictures/4layer_variant_bottom.png) |
 
 - Bottom row pictures show 4 Layer assembly variant of `nerve_pcb`,
