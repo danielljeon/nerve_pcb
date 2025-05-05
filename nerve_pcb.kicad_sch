@@ -7064,8 +7064,8 @@
 		(uuid bf8798c9-3e5e-4adf-9b01-defba78e1ffd)
 	)
 	(rectangle
-		(start 102.87 167.64)
-		(end 175.26 196.85)
+		(start 85.09 167.64)
+		(end 176.53 196.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -7281,7 +7281,7 @@
 	)
 	(text "Addressable RGB LEDs"
 		(exclude_from_sim no)
-		(at 104.14 194.818 0)
+		(at 86.36 194.818 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7290,6 +7290,18 @@
 			(justify left top)
 		)
 		(uuid "c8e3416f-5048-4849-9aa1-564641536f5d")
+	)
+	(text "Decoupling caps"
+		(exclude_from_sim no)
+		(at 157.48 191.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "d233de6f-2b50-4dde-ac0f-a937522dc5cc")
 	)
 	(text "Designed default: Card detected\n    Jumper open -> DET to GND: Card\n    Jumper closed -> DET to 3V3: No card"
 		(exclude_from_sim no)
@@ -7461,6 +7473,12 @@
 		(uuid "65662203-5555-43ee-9dda-f482ef44e436")
 	)
 	(junction
+		(at 167.64 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69b2c5da-ed26-449d-a05b-005d4149ecec")
+	)
+	(junction
 		(at 132.08 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7579,6 +7597,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca4c6f70-efb6-4e48-a71a-0771816d55a5")
+	)
+	(junction
+		(at 167.64 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb7b76eb-cf19-4211-9258-7a384803d64f")
 	)
 	(junction
 		(at 69.85 34.29)
@@ -7884,7 +7908,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 191.77) (xy 149.86 190.5)
+			(xy 129.54 191.77) (xy 129.54 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8184,7 +8208,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 182.88) (xy 157.48 182.88)
+			(xy 138.43 182.88) (xy 137.16 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8524,6 +8548,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 184.15) (xy 157.48 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442c8ef7-a4d5-401b-9cfb-4f1314e0d7a7")
+	)
+	(wire
+		(pts
 			(xy 205.74 73.66) (xy 205.74 72.39)
 		)
 		(stroke
@@ -8624,7 +8658,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 173.99) (xy 130.81 175.26)
+			(xy 113.03 173.99) (xy 113.03 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8884,6 +8918,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 173.99) (xy 167.64 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668a8950-5381-41f8-af32-97b56c0c6bda")
+	)
+	(wire
+		(pts
 			(xy 182.88 82.55) (xy 182.88 83.82)
 		)
 		(stroke
@@ -8931,6 +8975,16 @@
 			(type default)
 		)
 		(uuid "6a44eb89-36f5-48d4-be42-a6da84a2f06f")
+	)
+	(wire
+		(pts
+			(xy 167.64 186.69) (xy 167.64 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a81dbd5-9a70-4edf-9891-6626bdf7f3bf")
 	)
 	(wire
 		(pts
@@ -9134,7 +9188,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 173.99) (xy 149.86 175.26)
+			(xy 129.54 173.99) (xy 129.54 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9211,6 +9265,16 @@
 			(type default)
 		)
 		(uuid "7e7172e3-8041-4337-8cca-cd257fba6a4b")
+	)
+	(wire
+		(pts
+			(xy 167.64 176.53) (xy 167.64 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcf9650-044d-4788-8943-cabc5678734d")
 	)
 	(wire
 		(pts
@@ -9324,7 +9388,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 182.88) (xy 142.24 182.88)
+			(xy 120.65 182.88) (xy 121.92 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9441,6 +9505,16 @@
 			(type default)
 		)
 		(uuid "91914bfe-da8e-417f-942b-3134897b52b2")
+	)
+	(wire
+		(pts
+			(xy 167.64 185.42) (xy 157.48 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91baade2-d6b6-4441-bbde-9e92d3b39ce4")
 	)
 	(wire
 		(pts
@@ -9594,6 +9668,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 184.15) (xy 167.64 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc521c2-4744-4bae-9aa6-edfeab76af8f")
+	)
+	(wire
+		(pts
 			(xy 166.37 130.81) (xy 166.37 132.08)
 		)
 		(stroke
@@ -9624,7 +9708,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 191.77) (xy 130.81 190.5)
+			(xy 113.03 191.77) (xy 113.03 190.5)
 		)
 		(stroke
 			(width 0)
@@ -9874,6 +9958,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 175.26) (xy 157.48 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b392515b-1de8-4f57-af4c-e045593f819b")
+	)
+	(wire
+		(pts
 			(xy 96.52 104.14) (xy 97.79 104.14)
 		)
 		(stroke
@@ -10021,6 +10115,16 @@
 			(type default)
 		)
 		(uuid "c97029af-7d66-46b5-bf79-43e6ffd92301")
+	)
+	(wire
+		(pts
+			(xy 157.48 175.26) (xy 157.48 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98bdfaa-4bce-4a25-8e55-de4609926052")
 	)
 	(wire
 		(pts
@@ -10194,7 +10298,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 182.88) (xy 123.19 182.88)
+			(xy 104.14 182.88) (xy 105.41 182.88)
 		)
 		(stroke
 			(width 0)
@@ -11008,7 +11112,7 @@
 	)
 	(hierarchical_label "WS2812B_PWM"
 		(shape input)
-		(at 158.75 182.88 0)
+		(at 138.43 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11613,7 +11717,7 @@
 	)
 	(hierarchical_label "TIM1_CH1_PWM_{5V}"
 		(shape input)
-		(at 121.92 182.88 180)
+		(at 104.14 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12443,7 +12547,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 191.77 0)
+		(at 113.03 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12451,8 +12555,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e01e83f-13b5-4b76-8208-75971c0a06cb")
-		(property "Reference" "#PWR063"
-			(at 130.81 198.12 0)
+		(property "Reference" "#PWR065"
+			(at 113.03 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12461,7 +12565,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 196.85 0)
+			(at 113.03 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12470,7 +12574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 191.77 0)
+			(at 113.03 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12479,7 +12583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 191.77 0)
+			(at 113.03 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12488,7 +12592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 191.77 0)
+			(at 113.03 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12502,7 +12606,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR063")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -12653,7 +12757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2284c699-8bac-4c3e-97b5-6a0dea47c1a8")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 33.02 196.85 0)
 			(effects
 				(font
@@ -12704,7 +12808,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -14398,7 +14502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e291e63-de0d-4921-ac86-c37219eb5206")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR062"
 			(at 24.13 196.85 0)
 			(effects
 				(font
@@ -14449,7 +14553,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR060")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -14949,7 +15053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ba76ab6-80ee-4e6f-9346-02935802ab07")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR064"
 			(at 41.91 196.85 0)
 			(effects
 				(font
@@ -15000,7 +15104,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR062")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -15541,7 +15645,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 149.86 173.99 0)
+		(at 129.54 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15549,7 +15653,7 @@
 		(dnp no)
 		(uuid "81f04614-94ea-4f49-8a3c-d3988bd778c9")
 		(property "Reference" "#PWR058"
-			(at 149.86 177.8 0)
+			(at 129.54 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15558,7 +15662,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 149.86 170.18 0)
+			(at 129.54 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15566,7 +15670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 173.99 0)
+			(at 129.54 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15575,7 +15679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 173.99 0)
+			(at 129.54 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15584,7 +15688,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 149.86 173.99 0)
+			(at 129.54 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16216,7 +16320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9070a94a-c639-4012-bd84-57ad0576a029")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR061"
 			(at 15.24 196.85 0)
 			(effects
 				(font
@@ -16267,7 +16371,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR059")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -16860,7 +16964,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 191.77 0)
+		(at 129.54 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16868,8 +16972,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a53254d6-e010-403a-a1cb-9ea196e4d01a")
-		(property "Reference" "#PWR064"
-			(at 149.86 198.12 0)
+		(property "Reference" "#PWR066"
+			(at 129.54 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16878,7 +16982,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 196.85 0)
+			(at 129.54 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16887,7 +16991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 191.77 0)
+			(at 129.54 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16896,7 +17000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 191.77 0)
+			(at 129.54 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16905,7 +17009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 191.77 0)
+			(at 129.54 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16919,7 +17023,7 @@
 		(instances
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR064")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -17716,7 +17820,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 130.81 173.99 0)
+		(at 113.03 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17724,7 +17828,7 @@
 		(dnp no)
 		(uuid "afaf25d5-8cd7-40e9-9ec2-9cbbbe376862")
 		(property "Reference" "#PWR057"
-			(at 130.81 177.8 0)
+			(at 113.03 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17733,7 +17837,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 130.81 170.18 0)
+			(at 113.03 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17741,7 +17845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 173.99 0)
+			(at 113.03 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17750,7 +17854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 173.99 0)
+			(at 113.03 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17759,7 +17863,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 130.81 173.99 0)
+			(at 113.03 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17774,6 +17878,73 @@
 			(project "nerve_pcb"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b175100e-6dcb-42fb-b2c7-a639d2bf9395")
+		(property "Reference" "#PWR060"
+			(at 167.64 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a38b872-cafc-4653-b73a-4d5bcd09e9b6")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -18314,7 +18485,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 130.81 182.88 0)
+		(at 113.03 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18322,7 +18493,7 @@
 		(dnp no)
 		(uuid "c4ea1898-1f04-42b8-8b36-f2cd16865ad1")
 		(property "Reference" "D1"
-			(at 133.858 173.7046 0)
+			(at 116.078 173.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18330,7 +18501,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 137.16 176.276 0)
+			(at 119.38 176.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18338,7 +18509,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 132.08 190.5 0)
+			(at 114.3 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18348,7 +18519,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 133.35 192.405 0)
+			(at 115.57 192.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18358,7 +18529,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 130.81 182.88 0)
+			(at 113.03 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18722,6 +18893,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 167.64 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1d7d079-1c72-48b7-a4f1-87417fbd87b3")
+		(property "Reference" "C21"
+			(at 170.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 170.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 168.6052 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f053b4d-b436-4d55-9a13-848725e73c8f")
+		)
+		(pin "2"
+			(uuid "fb3b604e-8091-4590-a09b-52bf7c81333d")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 170.18 0)
 		(unit 1)
@@ -18919,7 +19159,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 149.86 182.88 0)
+		(at 129.54 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18927,7 +19167,7 @@
 		(dnp no)
 		(uuid "d803afe7-5c4b-49d5-8ddc-24bd64bddea4")
 		(property "Reference" "D2"
-			(at 152.908 173.7046 0)
+			(at 132.588 173.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18935,7 +19175,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 156.21 176.276 0)
+			(at 135.89 176.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18943,7 +19183,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 151.13 190.5 0)
+			(at 130.81 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18953,7 +19193,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 152.4 192.405 0)
+			(at 132.08 192.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18963,7 +19203,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 149.86 182.88 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19254,6 +19494,75 @@
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcb090fa-d3f8-4bf1-a32a-f1a079b3bcf6")
+		(property "Reference" "C20"
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 160.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 158.4452 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb8a2fe6-bb68-4499-9513-09be67964ac4")
+		)
+		(pin "2"
+			(uuid "8261f79c-f136-48da-8935-a0f1b774c3bd")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -20047,6 +20356,71 @@
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 167.64 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e82c081d-af3b-4f6e-a8c6-1932216d654d")
+		(property "Reference" "#PWR059"
+			(at 167.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 167.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 167.64 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "971acbee-9717-49b9-ab67-6b9a1278f38c")
+		)
+		(instances
+			(project "nerve_pcb"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
