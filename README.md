@@ -2,8 +2,9 @@
 
 ![kibot](https://github.com/danielljeon/nerve_pcb/actions/workflows/kibot.yaml/badge.svg)
 
-Production optimized PCB for the STM32
-based [nerve](https://github.com/danielljeon/nerve) controller firmware.
+PCB for CAN-based control systems dev platform.
+
+- Firmware: [`nerve`](https://github.com/danielljeon/nerve).
 
 ---
 
