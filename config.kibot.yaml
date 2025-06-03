@@ -4,7 +4,7 @@
 # Based on the example KiBot config file for ardu_prog.pro.
 # https://github.com/INTI-CMNB/kibot_variants_arduprog/blob/master/ardu_prog.kibot.yaml
 #
-# Designed for KiCad 8 with KiBot GitHub Actions workflows.
+# Designed for KiCad 9 with KiBot GitHub Actions workflows.
 ################################################################################
 
 kibot:
