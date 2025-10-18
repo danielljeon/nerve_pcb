@@ -41,13 +41,15 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 
 ## 1 Overview
 
-|                               Top                               |                                Bottom                                 |
-|:---------------------------------------------------------------:|:---------------------------------------------------------------------:|
-|          ![nerve_pcb-top.png](docs/nerve_pcb-top.png)           |          ![nerve_pcb-bottom.png](docs/nerve_pcb-bottom.png)           |
-| ![4layer_variant_top.png](docs/pictures/4layer_variant_top.png) | ![4layer_variant_bottom.png](docs/pictures/4layer_variant_bottom.png) |
+|                                Top                                |                                 Bottom                                  |
+|:-----------------------------------------------------------------:|:-----------------------------------------------------------------------:|
+|           ![nerve_pcb-top.png](docs/nerve_pcb-top.png)            |           ![nerve_pcb-bottom.png](docs/nerve_pcb-bottom.png)            |
+| ![4layer_variant_top.jpeg](docs/pictures/4layer_variant_top.jpeg) | ![4layer_variant_bottom.jpeg](docs/pictures/4layer_variant_bottom.jpeg) |
+|    ![v0-1-0-beta_top.jpeg](docs/pictures/v0-1-0-beta_top.jpeg)    |    ![v0-1-0-beta_bottom.jpeg](docs/pictures/v0-1-0-beta_bottom.jpeg)    |
 
-- Bottom row pictures show 4 Layer assembly variant of `nerve_pcb`,
+- Middle row pictures show 4 Layer assembly variant of `nerve_pcb`,
   v0.1.0-alpha.
+- Bottom row pictures show `nerve_pcb`, v0.1.0-beta.
 
 ---
 
